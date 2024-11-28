@@ -1,0 +1,19 @@
+{
+  "package_name": "px4_msgs",
+  "non_idl_tuples": [
+    "/root/colcon_ws/src/px4_msgs:msg/SimpleBatteryStatus.msg",
+    "/root/colcon_ws/src/px4_msgs:msg/CommanderSetState.msg",
+    "/root/colcon_ws/src/px4_msgs:msg/CommanderStatus.msg",
+    "/root/colcon_ws/src/px4_msgs:msg/ParameterReq.msg",
+    "/root/colcon_ws/src/px4_msgs:msg/ParameterRes.msg",
+    "/root/colcon_ws/src/px4_msgs:msg/SensorCombined.msg",
+    "/root/colcon_ws/src/px4_msgs:msg/SensorGps.msg",
+    "/root/colcon_ws/src/px4_msgs:msg/TimesyncStatus.msg",
+    "/root/colcon_ws/src/px4_msgs:msg/TrajectorySetpoint.msg",
+    "/root/colcon_ws/src/px4_msgs:msg/VehicleCommand.msg",
+    "/root/colcon_ws/src/px4_msgs:msg/VehicleControlMode.msg",
+    "/root/colcon_ws/src/px4_msgs:msg/VehicleLocalPosition.msg",
+    "/root/colcon_ws/src/px4_msgs:msg/VehicleOdometry.msg",
+    "/root/colcon_ws/src/px4_msgs:msg/VehicleStatus.msg"
+  ]
+}

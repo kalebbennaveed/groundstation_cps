@@ -1,0 +1,2 @@
+source;share/ground_station_launch/environment/ament_prefix_path.sh
+source;share/ground_station_launch/environment/path.sh

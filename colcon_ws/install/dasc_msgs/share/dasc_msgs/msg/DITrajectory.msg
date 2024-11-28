@@ -1,0 +1,1 @@
+/root/colcon_ws/src/dasc_ros_common/dasc_msgs/msg/DITrajectory.msg

@@ -1,0 +1,9 @@
+/root/colcon_ws/build/ground_station_launch/CMakeFiles/install/strip.dir
+/root/colcon_ws/build/ground_station_launch/CMakeFiles/install/local.dir
+/root/colcon_ws/build/ground_station_launch/CMakeFiles/install.dir
+/root/colcon_ws/build/ground_station_launch/CMakeFiles/list_install_components.dir
+/root/colcon_ws/build/ground_station_launch/CMakeFiles/rebuild_cache.dir
+/root/colcon_ws/build/ground_station_launch/CMakeFiles/edit_cache.dir
+/root/colcon_ws/build/ground_station_launch/CMakeFiles/test.dir
+/root/colcon_ws/build/ground_station_launch/CMakeFiles/ground_station_launch_uninstall.dir
+/root/colcon_ws/build/ground_station_launch/CMakeFiles/uninstall.dir

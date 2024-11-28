@@ -1,0 +1,9 @@
+[submodule "colcon_ws/src/px4_msgs"]
+	path = colcon_ws/src/px4_msgs
+	url = git@github.com:kalebbennaveed/px4_msgs.git
+[submodule "colcon_ws/src/dasc_ros_common"]
+	path = colcon_ws/src/dasc_ros_common
+	url = git@github.com:kalebbennaveed/dasc_ros_common.git
+[submodule "colcon_ws/src/dasc_robot_gui"]
+	path = colcon_ws/src/dasc_robot_gui
+	url = git@github.com:kalebbennaveed/dasc_robot_gui.git

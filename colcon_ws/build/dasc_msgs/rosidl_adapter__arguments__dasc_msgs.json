@@ -1,0 +1,6 @@
+{
+  "package_name": "dasc_msgs",
+  "non_idl_tuples": [
+    "/root/colcon_ws/src/dasc_ros_common/dasc_msgs:msg/DITrajectory.msg"
+  ]
+}
