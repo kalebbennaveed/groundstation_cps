@@ -388,6 +388,10 @@ CMakeFiles/dasc_robot_gui.dir/dasc_robot_gui_autogen/mocs_compilation.cpp.o: /op
 CMakeFiles/dasc_robot_gui.dir/dasc_robot_gui_autogen/mocs_compilation.cpp.o: dasc_robot_gui_autogen/UVLADIE3JM/moc_eware_panel.cpp
 CMakeFiles/dasc_robot_gui.dir/dasc_robot_gui_autogen/mocs_compilation.cpp.o: dasc_robot_gui_autogen/UVLADIE3JM/moc_teleop_panel.cpp
 CMakeFiles/dasc_robot_gui.dir/dasc_robot_gui_autogen/mocs_compilation.cpp.o: dasc_robot_gui_autogen/mocs_compilation.cpp
+CMakeFiles/dasc_robot_gui.dir/dasc_robot_gui_autogen/mocs_compilation.cpp.o: /root/colcon_ws/install/dasc_msgs/include/dasc_msgs/msg/detail/eware_mission_status__builder.hpp
+CMakeFiles/dasc_robot_gui.dir/dasc_robot_gui_autogen/mocs_compilation.cpp.o: /root/colcon_ws/install/dasc_msgs/include/dasc_msgs/msg/detail/eware_mission_status__struct.hpp
+CMakeFiles/dasc_robot_gui.dir/dasc_robot_gui_autogen/mocs_compilation.cpp.o: /root/colcon_ws/install/dasc_msgs/include/dasc_msgs/msg/detail/eware_mission_status__traits.hpp
+CMakeFiles/dasc_robot_gui.dir/dasc_robot_gui_autogen/mocs_compilation.cpp.o: /root/colcon_ws/install/dasc_msgs/include/dasc_msgs/msg/eware_mission_status.hpp
 CMakeFiles/dasc_robot_gui.dir/dasc_robot_gui_autogen/mocs_compilation.cpp.o: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/commander_set_state.hpp
 CMakeFiles/dasc_robot_gui.dir/dasc_robot_gui_autogen/mocs_compilation.cpp.o: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/commander_status.hpp
 CMakeFiles/dasc_robot_gui.dir/dasc_robot_gui_autogen/mocs_compilation.cpp.o: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/commander_set_state__builder.hpp
@@ -923,6 +927,10 @@ CMakeFiles/dasc_robot_gui.dir/src/eware_panel.cpp.o: /opt/ros/galactic/include/t
 CMakeFiles/dasc_robot_gui.dir/src/eware_panel.cpp.o: /opt/ros/galactic/include/tracetools/tracetools.h
 CMakeFiles/dasc_robot_gui.dir/src/eware_panel.cpp.o: /opt/ros/galactic/include/tracetools/utils.hpp
 CMakeFiles/dasc_robot_gui.dir/src/eware_panel.cpp.o: /opt/ros/galactic/include/tracetools/visibility_control.hpp
+CMakeFiles/dasc_robot_gui.dir/src/eware_panel.cpp.o: /root/colcon_ws/install/dasc_msgs/include/dasc_msgs/msg/detail/eware_mission_status__builder.hpp
+CMakeFiles/dasc_robot_gui.dir/src/eware_panel.cpp.o: /root/colcon_ws/install/dasc_msgs/include/dasc_msgs/msg/detail/eware_mission_status__struct.hpp
+CMakeFiles/dasc_robot_gui.dir/src/eware_panel.cpp.o: /root/colcon_ws/install/dasc_msgs/include/dasc_msgs/msg/detail/eware_mission_status__traits.hpp
+CMakeFiles/dasc_robot_gui.dir/src/eware_panel.cpp.o: /root/colcon_ws/install/dasc_msgs/include/dasc_msgs/msg/eware_mission_status.hpp
 CMakeFiles/dasc_robot_gui.dir/src/eware_panel.cpp.o: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_setpoint__builder.hpp
 CMakeFiles/dasc_robot_gui.dir/src/eware_panel.cpp.o: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_setpoint__struct.hpp
 CMakeFiles/dasc_robot_gui.dir/src/eware_panel.cpp.o: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_setpoint__traits.hpp

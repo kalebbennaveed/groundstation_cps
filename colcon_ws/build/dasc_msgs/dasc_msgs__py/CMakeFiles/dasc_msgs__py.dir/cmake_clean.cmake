@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/dasc_msgs/msg/__init__.py"
   "../rosidl_generator_py/dasc_msgs/msg/_di_trajectory.py"
   "../rosidl_generator_py/dasc_msgs/msg/_di_trajectory_s.c"
+  "../rosidl_generator_py/dasc_msgs/msg/_eware_mission_status.py"
+  "../rosidl_generator_py/dasc_msgs/msg/_eware_mission_status_s.c"
   "CMakeFiles/dasc_msgs__py"
 )
 

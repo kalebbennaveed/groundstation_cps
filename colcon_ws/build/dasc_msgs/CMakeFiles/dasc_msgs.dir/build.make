@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /root/colcon_ws/build/dasc_msgs
 include CMakeFiles/dasc_msgs.dir/progress.make
 
 CMakeFiles/dasc_msgs: /root/colcon_ws/src/dasc_ros_common/dasc_msgs/msg/DITrajectory.msg
+CMakeFiles/dasc_msgs: /root/colcon_ws/src/dasc_ros_common/dasc_msgs/msg/EwareMissionStatus.msg
 CMakeFiles/dasc_msgs: /opt/ros/galactic/share/geometry_msgs/msg/Accel.idl
 CMakeFiles/dasc_msgs: /opt/ros/galactic/share/geometry_msgs/msg/AccelStamped.idl
 CMakeFiles/dasc_msgs: /opt/ros/galactic/share/geometry_msgs/msg/AccelWithCovariance.idl

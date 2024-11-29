@@ -216,6 +216,26 @@ rosidl_typesupport_cpp/visibility_control.h
 rosidl_typesupport_interface/macros.h
 /root/colcon_ws/build/dasc_msgs/rosidl_typesupport_cpp/dasc_msgs/msg/rosidl_typesupport_interface/macros.h
 
+/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_cpp/dasc_msgs/msg/eware_mission_status__type_support.cpp
+cstddef
+/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_cpp/dasc_msgs/msg/cstddef
+rosidl_runtime_c/message_type_support_struct.h
+/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_cpp/dasc_msgs/msg/rosidl_runtime_c/message_type_support_struct.h
+dasc_msgs/msg/detail/eware_mission_status__struct.hpp
+/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_cpp/dasc_msgs/msg/dasc_msgs/msg/detail/eware_mission_status__struct.hpp
+rosidl_typesupport_cpp/identifier.hpp
+/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_cpp/dasc_msgs/msg/rosidl_typesupport_cpp/identifier.hpp
+rosidl_typesupport_cpp/message_type_support.hpp
+/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_cpp/dasc_msgs/msg/rosidl_typesupport_cpp/message_type_support.hpp
+rosidl_typesupport_c/type_support_map.h
+/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_cpp/dasc_msgs/msg/rosidl_typesupport_c/type_support_map.h
+rosidl_typesupport_cpp/message_type_support_dispatch.hpp
+/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_cpp/dasc_msgs/msg/rosidl_typesupport_cpp/message_type_support_dispatch.hpp
+rosidl_typesupport_cpp/visibility_control.h
+/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_cpp/dasc_msgs/msg/rosidl_typesupport_cpp/visibility_control.h
+rosidl_typesupport_interface/macros.h
+/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_cpp/dasc_msgs/msg/rosidl_typesupport_interface/macros.h
+
 rosidl_generator_cpp/dasc_msgs/msg/detail/di_trajectory__struct.hpp
 rosidl_runtime_cpp/bounded_vector.hpp
 -
@@ -239,4 +259,20 @@ geometry_msgs/msg/detail/twist__struct.hpp
 rosidl_generator_cpp/dasc_msgs/msg/detail/geometry_msgs/msg/detail/twist__struct.hpp
 geometry_msgs/msg/detail/accel__struct.hpp
 rosidl_generator_cpp/dasc_msgs/msg/detail/geometry_msgs/msg/detail/accel__struct.hpp
+
+rosidl_generator_cpp/dasc_msgs/msg/detail/eware_mission_status__struct.hpp
+rosidl_runtime_cpp/bounded_vector.hpp
+-
+rosidl_runtime_cpp/message_initialization.hpp
+-
+algorithm
+-
+array
+-
+memory
+-
+string
+-
+vector
+-
 

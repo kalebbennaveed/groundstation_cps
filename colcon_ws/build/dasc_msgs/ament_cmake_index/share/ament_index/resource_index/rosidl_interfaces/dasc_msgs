@@ -1,2 +1,4 @@
 msg/DITrajectory.idl
 msg/DITrajectory.msg
+msg/EwareMissionStatus.idl
+msg/EwareMissionStatus.msg

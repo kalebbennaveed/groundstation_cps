@@ -117,6 +117,10 @@ libdasc_robot_gui.so: /root/colcon_ws/install/px4_msgs/lib/libpx4_msgs__rosidl_t
 libdasc_robot_gui.so: /root/colcon_ws/install/px4_msgs/lib/libpx4_msgs__rosidl_typesupport_c.so
 libdasc_robot_gui.so: /root/colcon_ws/install/px4_msgs/lib/libpx4_msgs__rosidl_typesupport_introspection_cpp.so
 libdasc_robot_gui.so: /root/colcon_ws/install/px4_msgs/lib/libpx4_msgs__rosidl_typesupport_cpp.so
+libdasc_robot_gui.so: /root/colcon_ws/install/dasc_msgs/lib/libdasc_msgs__rosidl_typesupport_introspection_c.so
+libdasc_robot_gui.so: /root/colcon_ws/install/dasc_msgs/lib/libdasc_msgs__rosidl_typesupport_c.so
+libdasc_robot_gui.so: /root/colcon_ws/install/dasc_msgs/lib/libdasc_msgs__rosidl_typesupport_introspection_cpp.so
+libdasc_robot_gui.so: /root/colcon_ws/install/dasc_msgs/lib/libdasc_msgs__rosidl_typesupport_cpp.so
 libdasc_robot_gui.so: /opt/ros/galactic/lib/librviz_common.so
 libdasc_robot_gui.so: /opt/ros/galactic/lib/librviz_rendering.so
 libdasc_robot_gui.so: /opt/ros/galactic/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
@@ -125,6 +129,7 @@ libdasc_robot_gui.so: /opt/ros/galactic/lib/libsensor_msgs__rosidl_typesupport_i
 libdasc_robot_gui.so: /opt/ros/galactic/lib/libsensor_msgs__rosidl_typesupport_cpp.so
 libdasc_robot_gui.so: /opt/ros/galactic/lib/libnav_msgs__rosidl_generator_c.so
 libdasc_robot_gui.so: /root/colcon_ws/install/px4_msgs/lib/libpx4_msgs__rosidl_generator_c.so
+libdasc_robot_gui.so: /root/colcon_ws/install/dasc_msgs/lib/libdasc_msgs__rosidl_generator_c.so
 libdasc_robot_gui.so: /opt/ros/galactic/lib/liborocos-kdl.so.1.4.0
 libdasc_robot_gui.so: /opt/ros/galactic/lib/libsensor_msgs__rosidl_generator_c.so
 libdasc_robot_gui.so: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreOverlay.so

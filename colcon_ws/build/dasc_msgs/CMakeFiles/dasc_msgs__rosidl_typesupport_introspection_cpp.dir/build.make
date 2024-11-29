@@ -66,6 +66,7 @@ rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/di_trajectory__rosidl_
 rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/di_trajectory__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/galactic/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em
 rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/di_trajectory__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/galactic/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em
 rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/di_trajectory__rosidl_typesupport_introspection_cpp.hpp: rosidl_adapter/dasc_msgs/msg/DITrajectory.idl
+rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/di_trajectory__rosidl_typesupport_introspection_cpp.hpp: rosidl_adapter/dasc_msgs/msg/EwareMissionStatus.idl
 rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/di_trajectory__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/galactic/share/geometry_msgs/msg/Accel.idl
 rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/di_trajectory__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/galactic/share/geometry_msgs/msg/AccelStamped.idl
 rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/di_trajectory__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/galactic/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -130,8 +131,14 @@ rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/di_trajectory__rosidl_
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/colcon_ws/build/dasc_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ introspection for ROS interfaces"
 	/usr/bin/python3 /opt/ros/galactic/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp --generator-arguments-file /root/colcon_ws/build/dasc_msgs/rosidl_typesupport_introspection_cpp__arguments.json
 
+rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/eware_mission_status__rosidl_typesupport_introspection_cpp.hpp: rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/di_trajectory__rosidl_typesupport_introspection_cpp.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/eware_mission_status__rosidl_typesupport_introspection_cpp.hpp
+
 rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/di_trajectory__type_support.cpp: rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/di_trajectory__rosidl_typesupport_introspection_cpp.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/di_trajectory__type_support.cpp
+
+rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/eware_mission_status__type_support.cpp: rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/di_trajectory__rosidl_typesupport_introspection_cpp.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/eware_mission_status__type_support.cpp
 
 CMakeFiles/dasc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/di_trajectory__type_support.cpp.o: CMakeFiles/dasc_msgs__rosidl_typesupport_introspection_cpp.dir/flags.make
 CMakeFiles/dasc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/di_trajectory__type_support.cpp.o: rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/di_trajectory__type_support.cpp
@@ -146,14 +153,29 @@ CMakeFiles/dasc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesuppor
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dasc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/di_trajectory__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/colcon_ws/build/dasc_msgs/rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/di_trajectory__type_support.cpp -o CMakeFiles/dasc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/di_trajectory__type_support.cpp.s
 
+CMakeFiles/dasc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/eware_mission_status__type_support.cpp.o: CMakeFiles/dasc_msgs__rosidl_typesupport_introspection_cpp.dir/flags.make
+CMakeFiles/dasc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/eware_mission_status__type_support.cpp.o: rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/eware_mission_status__type_support.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/dasc_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/dasc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/eware_mission_status__type_support.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dasc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/eware_mission_status__type_support.cpp.o -c /root/colcon_ws/build/dasc_msgs/rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/eware_mission_status__type_support.cpp
+
+CMakeFiles/dasc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/eware_mission_status__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dasc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/eware_mission_status__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/colcon_ws/build/dasc_msgs/rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/eware_mission_status__type_support.cpp > CMakeFiles/dasc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/eware_mission_status__type_support.cpp.i
+
+CMakeFiles/dasc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/eware_mission_status__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dasc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/eware_mission_status__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/colcon_ws/build/dasc_msgs/rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/eware_mission_status__type_support.cpp -o CMakeFiles/dasc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/eware_mission_status__type_support.cpp.s
+
 # Object files for target dasc_msgs__rosidl_typesupport_introspection_cpp
 dasc_msgs__rosidl_typesupport_introspection_cpp_OBJECTS = \
-"CMakeFiles/dasc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/di_trajectory__type_support.cpp.o"
+"CMakeFiles/dasc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/di_trajectory__type_support.cpp.o" \
+"CMakeFiles/dasc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/eware_mission_status__type_support.cpp.o"
 
 # External object files for target dasc_msgs__rosidl_typesupport_introspection_cpp
 dasc_msgs__rosidl_typesupport_introspection_cpp_EXTERNAL_OBJECTS =
 
 libdasc_msgs__rosidl_typesupport_introspection_cpp.so: CMakeFiles/dasc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/di_trajectory__type_support.cpp.o
+libdasc_msgs__rosidl_typesupport_introspection_cpp.so: CMakeFiles/dasc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/eware_mission_status__type_support.cpp.o
 libdasc_msgs__rosidl_typesupport_introspection_cpp.so: CMakeFiles/dasc_msgs__rosidl_typesupport_introspection_cpp.dir/build.make
 libdasc_msgs__rosidl_typesupport_introspection_cpp.so: /opt/ros/galactic/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
 libdasc_msgs__rosidl_typesupport_introspection_cpp.so: /opt/ros/galactic/lib/libgeometry_msgs__rosidl_typesupport_c.so
@@ -178,7 +200,7 @@ libdasc_msgs__rosidl_typesupport_introspection_cpp.so: /opt/ros/galactic/lib/lib
 libdasc_msgs__rosidl_typesupport_introspection_cpp.so: /opt/ros/galactic/lib/librcpputils.so
 libdasc_msgs__rosidl_typesupport_introspection_cpp.so: /opt/ros/galactic/lib/librcutils.so
 libdasc_msgs__rosidl_typesupport_introspection_cpp.so: CMakeFiles/dasc_msgs__rosidl_typesupport_introspection_cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/colcon_ws/build/dasc_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libdasc_msgs__rosidl_typesupport_introspection_cpp.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/colcon_ws/build/dasc_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libdasc_msgs__rosidl_typesupport_introspection_cpp.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dasc_msgs__rosidl_typesupport_introspection_cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -191,7 +213,9 @@ CMakeFiles/dasc_msgs__rosidl_typesupport_introspection_cpp.dir/clean:
 .PHONY : CMakeFiles/dasc_msgs__rosidl_typesupport_introspection_cpp.dir/clean
 
 CMakeFiles/dasc_msgs__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/di_trajectory__rosidl_typesupport_introspection_cpp.hpp
+CMakeFiles/dasc_msgs__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/eware_mission_status__rosidl_typesupport_introspection_cpp.hpp
 CMakeFiles/dasc_msgs__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/di_trajectory__type_support.cpp
+CMakeFiles/dasc_msgs__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/dasc_msgs/msg/detail/eware_mission_status__type_support.cpp
 	cd /root/colcon_ws/build/dasc_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/colcon_ws/src/dasc_ros_common/dasc_msgs /root/colcon_ws/src/dasc_ros_common/dasc_msgs /root/colcon_ws/build/dasc_msgs /root/colcon_ws/build/dasc_msgs /root/colcon_ws/build/dasc_msgs/CMakeFiles/dasc_msgs__rosidl_typesupport_introspection_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/dasc_msgs__rosidl_typesupport_introspection_cpp.dir/depend
 

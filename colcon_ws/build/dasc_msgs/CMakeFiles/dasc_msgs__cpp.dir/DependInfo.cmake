@@ -8,6 +8,10 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/root/colcon_ws/build/dasc_msgs/rosidl_generator_cpp/dasc_msgs/msg/detail/di_trajectory__builder.hpp" "/root/colcon_ws/build/dasc_msgs/rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp"
   "/root/colcon_ws/build/dasc_msgs/rosidl_generator_cpp/dasc_msgs/msg/detail/di_trajectory__struct.hpp" "/root/colcon_ws/build/dasc_msgs/rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp"
   "/root/colcon_ws/build/dasc_msgs/rosidl_generator_cpp/dasc_msgs/msg/detail/di_trajectory__traits.hpp" "/root/colcon_ws/build/dasc_msgs/rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp"
+  "/root/colcon_ws/build/dasc_msgs/rosidl_generator_cpp/dasc_msgs/msg/detail/eware_mission_status__builder.hpp" "/root/colcon_ws/build/dasc_msgs/rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp"
+  "/root/colcon_ws/build/dasc_msgs/rosidl_generator_cpp/dasc_msgs/msg/detail/eware_mission_status__struct.hpp" "/root/colcon_ws/build/dasc_msgs/rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp"
+  "/root/colcon_ws/build/dasc_msgs/rosidl_generator_cpp/dasc_msgs/msg/detail/eware_mission_status__traits.hpp" "/root/colcon_ws/build/dasc_msgs/rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp"
+  "/root/colcon_ws/build/dasc_msgs/rosidl_generator_cpp/dasc_msgs/msg/eware_mission_status.hpp" "/root/colcon_ws/build/dasc_msgs/rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp"
   )
 
 

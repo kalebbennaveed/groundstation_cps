@@ -1,1 +1,2 @@
 /root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs:msg/DITrajectory.idl
+/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs:msg/EwareMissionStatus.idl

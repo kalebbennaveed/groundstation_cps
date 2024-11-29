@@ -10,6 +10,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/msg/__init__.py" "/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/_dasc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/msg/_di_trajectory.py" "/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/_dasc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/msg/_di_trajectory_s.c" "/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/_dasc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/msg/_eware_mission_status.py" "/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/_dasc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/msg/_eware_mission_status_s.c" "/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/_dasc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

@@ -23,3 +23,9 @@ CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/de
  rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory__functions.h
  rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory__struct.h
  rosidl_generator_c/dasc_msgs/msg/rosidl_generator_c__visibility_control.h
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/eware_mission_status__functions.c.o
+ /opt/ros/galactic/include/rosidl_runtime_c/visibility_control.h
+ /root/colcon_ws/build/dasc_msgs/rosidl_generator_c/dasc_msgs/msg/detail/eware_mission_status__functions.c
+ rosidl_generator_c/dasc_msgs/msg/detail/eware_mission_status__functions.h
+ rosidl_generator_c/dasc_msgs/msg/detail/eware_mission_status__struct.h
+ rosidl_generator_c/dasc_msgs/msg/rosidl_generator_c__visibility_control.h

@@ -142,6 +142,26 @@ rosidl_typesupport_c/visibility_control.h
 rosidl_typesupport_interface/macros.h
 /root/colcon_ws/build/dasc_msgs/rosidl_typesupport_c/dasc_msgs/msg/rosidl_typesupport_interface/macros.h
 
+/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_c/dasc_msgs/msg/eware_mission_status__type_support.cpp
+cstddef
+/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_c/dasc_msgs/msg/cstddef
+rosidl_runtime_c/message_type_support_struct.h
+/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_c/dasc_msgs/msg/rosidl_runtime_c/message_type_support_struct.h
+dasc_msgs/msg/rosidl_typesupport_c__visibility_control.h
+/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_c/dasc_msgs/msg/dasc_msgs/msg/rosidl_typesupport_c__visibility_control.h
+dasc_msgs/msg/detail/eware_mission_status__struct.h
+/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_c/dasc_msgs/msg/dasc_msgs/msg/detail/eware_mission_status__struct.h
+rosidl_typesupport_c/identifier.h
+/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_c/dasc_msgs/msg/rosidl_typesupport_c/identifier.h
+rosidl_typesupport_c/message_type_support_dispatch.h
+/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_c/dasc_msgs/msg/rosidl_typesupport_c/message_type_support_dispatch.h
+rosidl_typesupport_c/type_support_map.h
+/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_c/dasc_msgs/msg/rosidl_typesupport_c/type_support_map.h
+rosidl_typesupport_c/visibility_control.h
+/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_c/dasc_msgs/msg/rosidl_typesupport_c/visibility_control.h
+rosidl_typesupport_interface/macros.h
+/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_c/dasc_msgs/msg/rosidl_typesupport_interface/macros.h
+
 rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory__struct.h
 stdbool.h
 -
@@ -157,6 +177,14 @@ geometry_msgs/msg/detail/twist__struct.h
 rosidl_generator_c/dasc_msgs/msg/detail/geometry_msgs/msg/detail/twist__struct.h
 geometry_msgs/msg/detail/accel__struct.h
 rosidl_generator_c/dasc_msgs/msg/detail/geometry_msgs/msg/detail/accel__struct.h
+
+rosidl_generator_c/dasc_msgs/msg/detail/eware_mission_status__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
 
 rosidl_typesupport_c/dasc_msgs/msg/rosidl_typesupport_c__visibility_control.h
 

@@ -57,6 +57,10 @@ CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp
 CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/di_trajectory__builder.hpp
 CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/di_trajectory__struct.hpp
 CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/di_trajectory__traits.hpp
+CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/eware_mission_status.hpp
+CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/eware_mission_status__builder.hpp
+CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/eware_mission_status__struct.hpp
+CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/eware_mission_status__traits.hpp
 
 
 rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -75,6 +79,7 @@ rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/ro
 rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: rosidl_adapter/dasc_msgs/msg/DITrajectory.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: rosidl_adapter/dasc_msgs/msg/EwareMissionStatus.idl
 rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/geometry_msgs/msg/Accel.idl
 rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/geometry_msgs/msg/AccelStamped.idl
 rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -148,11 +153,27 @@ rosidl_generator_cpp/dasc_msgs/msg/detail/di_trajectory__struct.hpp: rosidl_gene
 rosidl_generator_cpp/dasc_msgs/msg/detail/di_trajectory__traits.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dasc_msgs/msg/detail/di_trajectory__traits.hpp
 
+rosidl_generator_cpp/dasc_msgs/msg/eware_mission_status.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dasc_msgs/msg/eware_mission_status.hpp
+
+rosidl_generator_cpp/dasc_msgs/msg/detail/eware_mission_status__builder.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dasc_msgs/msg/detail/eware_mission_status__builder.hpp
+
+rosidl_generator_cpp/dasc_msgs/msg/detail/eware_mission_status__struct.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dasc_msgs/msg/detail/eware_mission_status__struct.hpp
+
+rosidl_generator_cpp/dasc_msgs/msg/detail/eware_mission_status__traits.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dasc_msgs/msg/detail/eware_mission_status__traits.hpp
+
 dasc_msgs__cpp: CMakeFiles/dasc_msgs__cpp
 dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp
 dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/di_trajectory__builder.hpp
 dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/di_trajectory__struct.hpp
 dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/di_trajectory__traits.hpp
+dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/eware_mission_status.hpp
+dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/eware_mission_status__builder.hpp
+dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/eware_mission_status__struct.hpp
+dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/eware_mission_status__traits.hpp
 dasc_msgs__cpp: CMakeFiles/dasc_msgs__cpp.dir/build.make
 
 .PHONY : dasc_msgs__cpp

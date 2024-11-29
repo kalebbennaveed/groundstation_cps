@@ -1,0 +1,1 @@
+/root/colcon_ws/install/dasc_robot_gui/share/dasc_robot_gui/package.dsv

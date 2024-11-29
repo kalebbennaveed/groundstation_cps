@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.msg": "cpp",
+        "chrono": "cpp",
+        "memory": "cpp",
+        "random": "cpp"
+    }
+}

@@ -108,4 +108,7 @@ CMakeFiles/dasc_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_gener
  rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory__functions.h
  rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory__struct.h
  rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory__type_support.h
+ rosidl_generator_c/dasc_msgs/msg/detail/eware_mission_status__functions.h
+ rosidl_generator_c/dasc_msgs/msg/detail/eware_mission_status__struct.h
+ rosidl_generator_c/dasc_msgs/msg/detail/eware_mission_status__type_support.h
  rosidl_generator_c/dasc_msgs/msg/rosidl_generator_c__visibility_control.h

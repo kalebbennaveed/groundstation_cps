@@ -26,6 +26,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "dasc_robot_gui_autogen/include"
   "/root/colcon_ws/install/px4_msgs/include"
+  "/root/colcon_ws/install/dasc_msgs/include"
   "/opt/ros/galactic/include"
   "/usr/include/eigen3"
   "/usr/include/x86_64-linux-gnu/qt5"

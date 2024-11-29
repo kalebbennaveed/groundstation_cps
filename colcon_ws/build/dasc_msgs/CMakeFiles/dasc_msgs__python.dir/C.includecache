@@ -170,6 +170,20 @@ geometry_msgs/msg/detail/pose__functions.h
 geometry_msgs/msg/detail/twist__functions.h
 /root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/msg/geometry_msgs/msg/detail/twist__functions.h
 
+/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/msg/_eware_mission_status_s.c
+Python.h
+-
+stdbool.h
+-
+numpy/ndarrayobject.h
+/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/msg/numpy/ndarrayobject.h
+rosidl_runtime_c/visibility_control.h
+/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/msg/rosidl_runtime_c/visibility_control.h
+dasc_msgs/msg/detail/eware_mission_status__struct.h
+/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/msg/dasc_msgs/msg/detail/eware_mission_status__struct.h
+dasc_msgs/msg/detail/eware_mission_status__functions.h
+/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/msg/dasc_msgs/msg/detail/eware_mission_status__functions.h
+
 /usr/include/python3.8/Python.h
 patchlevel.h
 /usr/include/python3.8/patchlevel.h
@@ -769,6 +783,26 @@ geometry_msgs/msg/detail/twist__struct.h
 rosidl_generator_c/dasc_msgs/msg/detail/geometry_msgs/msg/detail/twist__struct.h
 geometry_msgs/msg/detail/accel__struct.h
 rosidl_generator_c/dasc_msgs/msg/detail/geometry_msgs/msg/detail/accel__struct.h
+
+rosidl_generator_c/dasc_msgs/msg/detail/eware_mission_status__functions.h
+stdbool.h
+-
+stdlib.h
+-
+rosidl_runtime_c/visibility_control.h
+rosidl_generator_c/dasc_msgs/msg/detail/rosidl_runtime_c/visibility_control.h
+dasc_msgs/msg/rosidl_generator_c__visibility_control.h
+rosidl_generator_c/dasc_msgs/msg/detail/dasc_msgs/msg/rosidl_generator_c__visibility_control.h
+dasc_msgs/msg/detail/eware_mission_status__struct.h
+rosidl_generator_c/dasc_msgs/msg/detail/dasc_msgs/msg/detail/eware_mission_status__struct.h
+
+rosidl_generator_c/dasc_msgs/msg/detail/eware_mission_status__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
 
 rosidl_generator_c/dasc_msgs/msg/rosidl_generator_c__visibility_control.h
 

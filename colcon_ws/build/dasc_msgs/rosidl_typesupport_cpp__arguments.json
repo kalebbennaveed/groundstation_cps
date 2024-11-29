@@ -3,7 +3,8 @@
   "output_dir": "/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_cpp/dasc_msgs",
   "template_dir": "/opt/ros/galactic/share/rosidl_typesupport_cpp/resource",
   "idl_tuples": [
-    "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs:msg/DITrajectory.idl"
+    "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs:msg/DITrajectory.idl",
+    "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs:msg/EwareMissionStatus.idl"
   ],
   "ros_interface_dependencies": [
     "geometry_msgs:/opt/ros/galactic/share/geometry_msgs/msg/Accel.idl",
@@ -76,6 +77,7 @@
     "/opt/ros/galactic/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/galactic/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
     "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs/msg/DITrajectory.idl",
+    "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs/msg/EwareMissionStatus.idl",
     "/opt/ros/galactic/share/geometry_msgs/msg/Accel.idl",
     "/opt/ros/galactic/share/geometry_msgs/msg/AccelStamped.idl",
     "/opt/ros/galactic/share/geometry_msgs/msg/AccelWithCovariance.idl",
