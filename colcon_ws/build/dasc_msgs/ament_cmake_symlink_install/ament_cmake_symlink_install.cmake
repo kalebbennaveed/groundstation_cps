@@ -309,3 +309,135 @@ endfunction()
 message(STATUS "Execute custom install script")
 
 # begin of custom install code
+
+# install(FILES "/root/colcon_ws/build/dasc_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/dasc_msgs" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/build/dasc_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/dasc_msgs" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+
+# install(DIRECTORY "/root/colcon_ws/build/dasc_msgs/rosidl_generator_c/dasc_msgs/" "DESTINATION" "include/dasc_msgs" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" DIRECTORY "/root/colcon_ws/build/dasc_msgs/rosidl_generator_c/dasc_msgs/" "DESTINATION" "include/dasc_msgs" "PATTERN" "*.h")
+
+# install(FILES "/opt/ros/galactic/lib/python3.8/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/dasc_msgs/environment")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/opt/ros/galactic/lib/python3.8/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/dasc_msgs/environment")
+
+# install(FILES "/root/colcon_ws/build/dasc_msgs/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/dasc_msgs/environment")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/build/dasc_msgs/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/dasc_msgs/environment")
+
+# install(DIRECTORY "/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_fastrtps_c/dasc_msgs/" "DESTINATION" "include/dasc_msgs" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" DIRECTORY "/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_fastrtps_c/dasc_msgs/" "DESTINATION" "include/dasc_msgs" "PATTERN_EXCLUDE" "*.cpp")
+
+# install("TARGETS" "dasc_msgs__rosidl_typesupport_fastrtps_c" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
+include("/root/colcon_ws/build/dasc_msgs/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(DIRECTORY "/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_fastrtps_cpp/dasc_msgs/" "DESTINATION" "include/dasc_msgs" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" DIRECTORY "/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_fastrtps_cpp/dasc_msgs/" "DESTINATION" "include/dasc_msgs" "PATTERN_EXCLUDE" "*.cpp")
+
+# install("TARGETS" "dasc_msgs__rosidl_typesupport_fastrtps_cpp" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
+include("/root/colcon_ws/build/dasc_msgs/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(DIRECTORY "/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_introspection_c/dasc_msgs/" "DESTINATION" "include/dasc_msgs" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" DIRECTORY "/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_introspection_c/dasc_msgs/" "DESTINATION" "include/dasc_msgs" "PATTERN" "*.h")
+
+# install(DIRECTORY "/root/colcon_ws/build/dasc_msgs/rosidl_generator_cpp/dasc_msgs/" "DESTINATION" "include/dasc_msgs" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" DIRECTORY "/root/colcon_ws/build/dasc_msgs/rosidl_generator_cpp/dasc_msgs/" "DESTINATION" "include/dasc_msgs" "PATTERN" "*.hpp")
+
+# install(DIRECTORY "/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_introspection_cpp/dasc_msgs/" "DESTINATION" "include/dasc_msgs" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" DIRECTORY "/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_introspection_cpp/dasc_msgs/" "DESTINATION" "include/dasc_msgs" "PATTERN" "*.hpp")
+
+# install(FILES "/root/colcon_ws/build/dasc_msgs/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/dasc_msgs/environment")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/build/dasc_msgs/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/dasc_msgs/environment")
+
+# install(FILES "/root/colcon_ws/build/dasc_msgs/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/dasc_msgs/environment")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/build/dasc_msgs/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/dasc_msgs/environment")
+
+# install(FILES "/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/__init__.py" "DESTINATION" "lib/python3.8/site-packages/dasc_msgs")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/__init__.py" "DESTINATION" "lib/python3.8/site-packages/dasc_msgs")
+
+# install(DIRECTORY "/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/msg/" "DESTINATION" "lib/python3.8/site-packages/dasc_msgs/msg" "PATTERN" "*.py")
+ament_cmake_symlink_install_directory("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" DIRECTORY "/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/msg/" "DESTINATION" "lib/python3.8/site-packages/dasc_msgs/msg" "PATTERN" "*.py")
+
+# install("TARGETS" "dasc_msgs__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "lib/python3.8/site-packages/dasc_msgs")
+include("/root/colcon_ws/build/dasc_msgs/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install("TARGETS" "dasc_msgs__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "lib/python3.8/site-packages/dasc_msgs")
+include("/root/colcon_ws/build/dasc_msgs/ament_cmake_symlink_install_targets_3_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install("TARGETS" "dasc_msgs__rosidl_typesupport_c__pyext" "DESTINATION" "lib/python3.8/site-packages/dasc_msgs")
+include("/root/colcon_ws/build/dasc_msgs/ament_cmake_symlink_install_targets_4_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install("TARGETS" "dasc_msgs__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
+include("/root/colcon_ws/build/dasc_msgs/ament_cmake_symlink_install_targets_5_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs/msg/DITrajectory.idl" "DESTINATION" "share/dasc_msgs/msg")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs/msg/DITrajectory.idl" "DESTINATION" "share/dasc_msgs/msg")
+
+# install(FILES "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs/msg/EwareMissionStatus.idl" "DESTINATION" "share/dasc_msgs/msg")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs/msg/EwareMissionStatus.idl" "DESTINATION" "share/dasc_msgs/msg")
+
+# install(FILES "/root/colcon_ws/src/dasc_ros_common/dasc_msgs/msg/DITrajectory.msg" "DESTINATION" "share/dasc_msgs/msg")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/src/dasc_ros_common/dasc_msgs/msg/DITrajectory.msg" "DESTINATION" "share/dasc_msgs/msg")
+
+# install(FILES "/root/colcon_ws/src/dasc_ros_common/dasc_msgs/msg/EwareMissionStatus.msg" "DESTINATION" "share/dasc_msgs/msg")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/src/dasc_ros_common/dasc_msgs/msg/EwareMissionStatus.msg" "DESTINATION" "share/dasc_msgs/msg")
+
+# install(FILES "/root/colcon_ws/build/dasc_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/dasc_msgs" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/build/dasc_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/dasc_msgs" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+
+# install(FILES "/root/colcon_ws/build/dasc_msgs/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/dasc_msgs" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/build/dasc_msgs/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/dasc_msgs" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+
+# install(FILES "/opt/ros/galactic/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/dasc_msgs/environment")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/opt/ros/galactic/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/dasc_msgs/environment")
+
+# install(FILES "/root/colcon_ws/build/dasc_msgs/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/dasc_msgs/environment")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/build/dasc_msgs/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/dasc_msgs/environment")
+
+# install(FILES "/opt/ros/galactic/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/dasc_msgs/environment")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/opt/ros/galactic/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/dasc_msgs/environment")
+
+# install(FILES "/root/colcon_ws/build/dasc_msgs/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/dasc_msgs/environment")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/build/dasc_msgs/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/dasc_msgs/environment")
+
+# install(FILES "/root/colcon_ws/build/dasc_msgs/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/dasc_msgs")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/build/dasc_msgs/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/dasc_msgs")
+
+# install(FILES "/root/colcon_ws/build/dasc_msgs/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/dasc_msgs")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/build/dasc_msgs/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/dasc_msgs")
+
+# install(FILES "/root/colcon_ws/build/dasc_msgs/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/dasc_msgs")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/build/dasc_msgs/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/dasc_msgs")
+
+# install(FILES "/root/colcon_ws/build/dasc_msgs/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/dasc_msgs")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/build/dasc_msgs/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/dasc_msgs")
+
+# install(FILES "/root/colcon_ws/build/dasc_msgs/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/dasc_msgs")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/build/dasc_msgs/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/dasc_msgs")
+
+# install(FILES "/root/colcon_ws/build/dasc_msgs/ament_cmake_index/share/ament_index/resource_index/packages/dasc_msgs" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/build/dasc_msgs/ament_cmake_index/share/ament_index/resource_index/packages/dasc_msgs" "DESTINATION" "share/ament_index/resource_index/packages")
+
+# install(FILES "/root/colcon_ws/build/dasc_msgs/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/dasc_msgs/cmake")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/build/dasc_msgs/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/dasc_msgs/cmake")
+
+# install(FILES "/root/colcon_ws/build/dasc_msgs/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/dasc_msgs/cmake")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/build/dasc_msgs/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/dasc_msgs/cmake")
+
+# install(FILES "/root/colcon_ws/build/dasc_msgs/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/dasc_msgs/cmake")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/build/dasc_msgs/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/dasc_msgs/cmake")
+
+# install(FILES "/root/colcon_ws/build/dasc_msgs/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/dasc_msgs/cmake")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/build/dasc_msgs/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/dasc_msgs/cmake")
+
+# install(FILES "/root/colcon_ws/build/dasc_msgs/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/dasc_msgs/cmake")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/build/dasc_msgs/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/dasc_msgs/cmake")
+
+# install(FILES "/root/colcon_ws/build/dasc_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/dasc_msgs/cmake")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/build/dasc_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/dasc_msgs/cmake")
+
+# install(FILES "/root/colcon_ws/build/dasc_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/dasc_msgs/cmake")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/build/dasc_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/dasc_msgs/cmake")
+
+# install(FILES "/root/colcon_ws/build/dasc_msgs/ament_cmake_core/dasc_msgsConfig.cmake" "/root/colcon_ws/build/dasc_msgs/ament_cmake_core/dasc_msgsConfig-version.cmake" "DESTINATION" "share/dasc_msgs/cmake")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/build/dasc_msgs/ament_cmake_core/dasc_msgsConfig.cmake" "/root/colcon_ws/build/dasc_msgs/ament_cmake_core/dasc_msgsConfig-version.cmake" "DESTINATION" "share/dasc_msgs/cmake")
+
+# install(FILES "/root/colcon_ws/src/dasc_ros_common/dasc_msgs/package.xml" "DESTINATION" "share/dasc_msgs")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/src/dasc_ros_common/dasc_msgs/package.xml" "DESTINATION" "share/dasc_msgs")

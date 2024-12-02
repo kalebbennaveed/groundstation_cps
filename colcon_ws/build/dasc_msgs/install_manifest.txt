@@ -1,17 +1,8 @@
-/root/colcon_ws/install/dasc_msgs/include/dasc_msgs/msg/detail/eware_mission_status__functions.c
-/root/colcon_ws/install/dasc_msgs/include/dasc_msgs/msg/detail/di_trajectory__functions.c
 /root/colcon_ws/install/dasc_msgs/lib/libdasc_msgs__rosidl_generator_c.so
-/root/colcon_ws/install/dasc_msgs/include/dasc_msgs/msg/detail/eware_mission_status__type_support.c
-/root/colcon_ws/install/dasc_msgs/include/dasc_msgs/msg/detail/di_trajectory__type_support.c
 /root/colcon_ws/install/dasc_msgs/lib/libdasc_msgs__rosidl_typesupport_introspection_c.so
 /root/colcon_ws/install/dasc_msgs/lib/libdasc_msgs__rosidl_typesupport_c.so
-/root/colcon_ws/install/dasc_msgs/include/dasc_msgs/msg/detail/eware_mission_status__type_support.cpp
-/root/colcon_ws/install/dasc_msgs/include/dasc_msgs/msg/detail/di_trajectory__type_support.cpp
 /root/colcon_ws/install/dasc_msgs/lib/libdasc_msgs__rosidl_typesupport_introspection_cpp.so
 /root/colcon_ws/install/dasc_msgs/lib/libdasc_msgs__rosidl_typesupport_cpp.so
-/root/colcon_ws/install/dasc_msgs/lib/python3.8/site-packages/dasc_msgs/msg/_di_trajectory_s.c
-/root/colcon_ws/install/dasc_msgs/lib/python3.8/site-packages/dasc_msgs/msg/_eware_mission_status_s.c
-/root/colcon_ws/install/dasc_msgs/share/dasc_msgs/package.dsv
 /root/colcon_ws/install/dasc_msgs/share/dasc_msgs/cmake/dasc_msgs__rosidl_generator_cExport.cmake
 /root/colcon_ws/install/dasc_msgs/share/dasc_msgs/cmake/dasc_msgs__rosidl_generator_cExport-noconfig.cmake
 /root/colcon_ws/install/dasc_msgs/share/dasc_msgs/cmake/dasc_msgs__rosidl_typesupport_introspection_cExport.cmake
