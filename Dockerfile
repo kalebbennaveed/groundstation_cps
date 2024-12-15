@@ -67,6 +67,9 @@ RUN apt-get update && apt-get install -y ros-${ROS_DISTRO}-joy
 # install tf2-geometry-msgs
 RUN apt-get update && apt-get install -y ros-${ROS_DISTRO}-tf2-geometry-msgs
 
+# install python requirements from dependencies
+# RUN pip3 install -r py_requirements.txt
+
 
 # install the vimrc
 #COPY vimrc /root/.vimrc
@@ -76,12 +79,15 @@ RUN apt-get update && apt-get install -y ros-${ROS_DISTRO}-tf2-geometry-msgs
 RUN echo "source /opt/ros/${ROS_DISTRO}/setup.bash" >> /root/.bashrc
 RUN echo "source /root/colcon_ws/install/setup.bash" >> /root/.bashrc
 
-# install Julia dependencies
-# RUN wget https://julialang-s3.julialang.org/bin/linux/x64/1.11/julia-1.11.1-linux-x86_64.tar.gz \
-#  && tar zxvf julia-1.11.1-linux-x86_64.tar.gz \
-#  && mv julia-1.11.1 /opt/julia \
-#  && ln -s /opt/julia/bin/julia /usr/local/bin/julia \
-#  && rm julia-1.11.1-linux-x86_64.tar.gz
+# # Install Julia
+# WORKDIR /root/julia_install/
+# COPY deps/install.jl .
+# RUN wget https://julialang-s3.julialang.org/bin/linux/x64/1.11/julia-1.11.1-linux-x86_64.tar.gz && tar zxvf julia-1.11.1-linux-x86_64.tar.gz
+# RUN echo PATH="\$PATH:/root/julia_install/julia-1.11.1/bin" >> ~/.bashrc
+# RUN /root/julia_install/julia-1.11.1/bin/julia install.jl
+# # Set environment variable for JuliaCall to offline mode
+# ENV PYTHON_JULIAPKG_EXE=/root/julia_install/julia-1.11.1/bin/julia
+# ENV PYTHON_JULIAPKG_OFFLINE=yes
 
 # # Install jluna as julia 
 # WORKDIR /root
