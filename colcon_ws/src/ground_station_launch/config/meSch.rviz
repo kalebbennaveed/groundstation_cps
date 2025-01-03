@@ -33,8 +33,14 @@ Panels:
     SyncMode: 0
     SyncSource: ""
   - Class: dasc_robot_gui/Teleop
-    Name: Teleop
+    Name: Teleop_px4_100
     Topic: px4_100
+  - Class: dasc_robot_gui/Teleop
+    Name: Teleop_px4_101
+    Topic: px4_101
+  - Class: dasc_robot_gui/Teleop
+    Name: Teleop_px4_102
+    Topic: px4_102
 Visualization Manager:
   Class: ""
   Displays:
@@ -328,7 +334,11 @@ Visualization Manager:
 Window Geometry:
   Displays:
     collapsed: false
-  Teleop:
+  Teleop_px4_100:
+    collapsed: false
+  Teleop_px4_101:
+    collapsed: false
+  Teleop_px4_102:
     collapsed: false
   Height: 1016
   Hide Left Dock: false

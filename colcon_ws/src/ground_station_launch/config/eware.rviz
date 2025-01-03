@@ -32,8 +32,8 @@ Panels:
     Name: Time
     SyncMode: 0
     SyncSource: ""
-  - Class: dasc_robot_gui/Teleop
-    Name: Teleop
+  - Class: dasc_robot_gui/Eware
+    Name: Eware
     Topic: px4_100
 Visualization Manager:
   Class: ""
@@ -328,7 +328,7 @@ Visualization Manager:
 Window Geometry:
   Displays:
     collapsed: false
-  Teleop:
+  Eware:
     collapsed: false
   Height: 1016
   Hide Left Dock: false

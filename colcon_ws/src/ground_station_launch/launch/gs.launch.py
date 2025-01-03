@@ -20,12 +20,16 @@ import math
 
 def generate_launch_description():
     
-    robot_name = "px4_100"
+    robot_01_name = "px4_100"
+    robot_02_name = "px4_101"
+    robot_03_name = "px4_102"
 
     # launch rviz with the teleop panel configuration
-    config0_name = "teleop.rviz"
+    config0_name = "meSch.rviz"
     config0_path = "/root/colcon_ws/src/ground_station_launch/config/" + config0_name
-    config1_name = "groundstation.rviz"
+
+
+    config1_name = "teleop.rviz"
     config1_path = "/root/colcon_ws/src/ground_station_launch/config/" + config1_name
     # config2_name = "groundstation_mapping.rviz"
     # config2_path = "/root/colcon_ws/src/ground_station_launch/config/" + config2_name
@@ -43,7 +47,7 @@ def generate_launch_description():
         package='rviz2',
         executable='rviz2',
         arguments=['-d', config1_path,       # set the config
-                   '-f', global_frame],     # overwrite the global frame
+                    '-f', global_frame],     # overwrite the global frame
         output='screen')
     
     # rviz2 = Node(
