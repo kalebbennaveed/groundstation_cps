@@ -1,5 +1,7 @@
 /root/colcon_ws/install/ground_station_launch/share/ground_station_launch/config/default.rviz
+/root/colcon_ws/install/ground_station_launch/share/ground_station_launch/config/eware.rviz
 /root/colcon_ws/install/ground_station_launch/share/ground_station_launch/config/groundstation.rviz
+/root/colcon_ws/install/ground_station_launch/share/ground_station_launch/config/meSch.rviz
 /root/colcon_ws/install/ground_station_launch/share/ground_station_launch/config/teleop.rviz
 /root/colcon_ws/install/ground_station_launch/share/ground_station_launch/launch/gs.launch.py
 /root/colcon_ws/install/ground_station_launch/share/ament_index/resource_index/package_run_dependencies/ground_station_launch

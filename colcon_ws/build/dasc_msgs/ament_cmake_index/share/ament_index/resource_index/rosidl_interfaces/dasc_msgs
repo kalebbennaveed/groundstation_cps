@@ -1,4 +1,16 @@
+msg/CandToSp.idl
+msg/CandToSp.msg
+msg/DIAcc.idl
+msg/DIAcc.msg
+msg/DIState.idl
+msg/DIState.msg
 msg/DITrajectory.idl
 msg/DITrajectory.msg
+msg/DITrajectorySimple.idl
+msg/DITrajectorySimple.msg
 msg/EwareMissionStatus.idl
 msg/EwareMissionStatus.msg
+msg/MeschMissionStatus.idl
+msg/MeschMissionStatus.msg
+msg/SpToCand.idl
+msg/SpToCand.msg

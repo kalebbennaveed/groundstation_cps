@@ -367,17 +367,53 @@ include("/root/colcon_ws/build/dasc_msgs/ament_cmake_symlink_install_targets_4_$
 # install("TARGETS" "dasc_msgs__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
 include("/root/colcon_ws/build/dasc_msgs/ament_cmake_symlink_install_targets_5_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
+# install(FILES "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs/msg/DIState.idl" "DESTINATION" "share/dasc_msgs/msg")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs/msg/DIState.idl" "DESTINATION" "share/dasc_msgs/msg")
+
+# install(FILES "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs/msg/DIAcc.idl" "DESTINATION" "share/dasc_msgs/msg")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs/msg/DIAcc.idl" "DESTINATION" "share/dasc_msgs/msg")
+
 # install(FILES "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs/msg/DITrajectory.idl" "DESTINATION" "share/dasc_msgs/msg")
 ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs/msg/DITrajectory.idl" "DESTINATION" "share/dasc_msgs/msg")
+
+# install(FILES "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs/msg/DITrajectorySimple.idl" "DESTINATION" "share/dasc_msgs/msg")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs/msg/DITrajectorySimple.idl" "DESTINATION" "share/dasc_msgs/msg")
 
 # install(FILES "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs/msg/EwareMissionStatus.idl" "DESTINATION" "share/dasc_msgs/msg")
 ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs/msg/EwareMissionStatus.idl" "DESTINATION" "share/dasc_msgs/msg")
 
+# install(FILES "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs/msg/CandToSp.idl" "DESTINATION" "share/dasc_msgs/msg")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs/msg/CandToSp.idl" "DESTINATION" "share/dasc_msgs/msg")
+
+# install(FILES "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs/msg/SpToCand.idl" "DESTINATION" "share/dasc_msgs/msg")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs/msg/SpToCand.idl" "DESTINATION" "share/dasc_msgs/msg")
+
+# install(FILES "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs/msg/MeschMissionStatus.idl" "DESTINATION" "share/dasc_msgs/msg")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs/msg/MeschMissionStatus.idl" "DESTINATION" "share/dasc_msgs/msg")
+
+# install(FILES "/root/colcon_ws/src/dasc_ros_common/dasc_msgs/msg/DIState.msg" "DESTINATION" "share/dasc_msgs/msg")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/src/dasc_ros_common/dasc_msgs/msg/DIState.msg" "DESTINATION" "share/dasc_msgs/msg")
+
+# install(FILES "/root/colcon_ws/src/dasc_ros_common/dasc_msgs/msg/DIAcc.msg" "DESTINATION" "share/dasc_msgs/msg")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/src/dasc_ros_common/dasc_msgs/msg/DIAcc.msg" "DESTINATION" "share/dasc_msgs/msg")
+
 # install(FILES "/root/colcon_ws/src/dasc_ros_common/dasc_msgs/msg/DITrajectory.msg" "DESTINATION" "share/dasc_msgs/msg")
 ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/src/dasc_ros_common/dasc_msgs/msg/DITrajectory.msg" "DESTINATION" "share/dasc_msgs/msg")
 
+# install(FILES "/root/colcon_ws/src/dasc_ros_common/dasc_msgs/msg/DITrajectorySimple.msg" "DESTINATION" "share/dasc_msgs/msg")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/src/dasc_ros_common/dasc_msgs/msg/DITrajectorySimple.msg" "DESTINATION" "share/dasc_msgs/msg")
+
 # install(FILES "/root/colcon_ws/src/dasc_ros_common/dasc_msgs/msg/EwareMissionStatus.msg" "DESTINATION" "share/dasc_msgs/msg")
 ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/src/dasc_ros_common/dasc_msgs/msg/EwareMissionStatus.msg" "DESTINATION" "share/dasc_msgs/msg")
+
+# install(FILES "/root/colcon_ws/src/dasc_ros_common/dasc_msgs/msg/CandToSp.msg" "DESTINATION" "share/dasc_msgs/msg")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/src/dasc_ros_common/dasc_msgs/msg/CandToSp.msg" "DESTINATION" "share/dasc_msgs/msg")
+
+# install(FILES "/root/colcon_ws/src/dasc_ros_common/dasc_msgs/msg/SpToCand.msg" "DESTINATION" "share/dasc_msgs/msg")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/src/dasc_ros_common/dasc_msgs/msg/SpToCand.msg" "DESTINATION" "share/dasc_msgs/msg")
+
+# install(FILES "/root/colcon_ws/src/dasc_ros_common/dasc_msgs/msg/MeschMissionStatus.msg" "DESTINATION" "share/dasc_msgs/msg")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/src/dasc_ros_common/dasc_msgs/msg/MeschMissionStatus.msg" "DESTINATION" "share/dasc_msgs/msg")
 
 # install(FILES "/root/colcon_ws/build/dasc_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/dasc_msgs" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/build/dasc_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/dasc_msgs" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

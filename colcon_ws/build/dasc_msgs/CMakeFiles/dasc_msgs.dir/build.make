@@ -53,8 +53,14 @@ CMAKE_BINARY_DIR = /root/colcon_ws/build/dasc_msgs
 # Include the progress variables for this target.
 include CMakeFiles/dasc_msgs.dir/progress.make
 
+CMakeFiles/dasc_msgs: /root/colcon_ws/src/dasc_ros_common/dasc_msgs/msg/DIState.msg
+CMakeFiles/dasc_msgs: /root/colcon_ws/src/dasc_ros_common/dasc_msgs/msg/DIAcc.msg
 CMakeFiles/dasc_msgs: /root/colcon_ws/src/dasc_ros_common/dasc_msgs/msg/DITrajectory.msg
+CMakeFiles/dasc_msgs: /root/colcon_ws/src/dasc_ros_common/dasc_msgs/msg/DITrajectorySimple.msg
 CMakeFiles/dasc_msgs: /root/colcon_ws/src/dasc_ros_common/dasc_msgs/msg/EwareMissionStatus.msg
+CMakeFiles/dasc_msgs: /root/colcon_ws/src/dasc_ros_common/dasc_msgs/msg/CandToSp.msg
+CMakeFiles/dasc_msgs: /root/colcon_ws/src/dasc_ros_common/dasc_msgs/msg/SpToCand.msg
+CMakeFiles/dasc_msgs: /root/colcon_ws/src/dasc_ros_common/dasc_msgs/msg/MeschMissionStatus.msg
 CMakeFiles/dasc_msgs: /opt/ros/galactic/share/geometry_msgs/msg/Accel.idl
 CMakeFiles/dasc_msgs: /opt/ros/galactic/share/geometry_msgs/msg/AccelStamped.idl
 CMakeFiles/dasc_msgs: /opt/ros/galactic/share/geometry_msgs/msg/AccelWithCovariance.idl

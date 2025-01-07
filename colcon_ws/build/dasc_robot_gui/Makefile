@@ -273,6 +273,33 @@ src/eware_panel.cpp.s:
 	$(MAKE) -f CMakeFiles/dasc_robot_gui.dir/build.make CMakeFiles/dasc_robot_gui.dir/src/eware_panel.cpp.s
 .PHONY : src/eware_panel.cpp.s
 
+src/meSch_panel.o: src/meSch_panel.cpp.o
+
+.PHONY : src/meSch_panel.o
+
+# target to build an object file
+src/meSch_panel.cpp.o:
+	$(MAKE) -f CMakeFiles/dasc_robot_gui.dir/build.make CMakeFiles/dasc_robot_gui.dir/src/meSch_panel.cpp.o
+.PHONY : src/meSch_panel.cpp.o
+
+src/meSch_panel.i: src/meSch_panel.cpp.i
+
+.PHONY : src/meSch_panel.i
+
+# target to preprocess a source file
+src/meSch_panel.cpp.i:
+	$(MAKE) -f CMakeFiles/dasc_robot_gui.dir/build.make CMakeFiles/dasc_robot_gui.dir/src/meSch_panel.cpp.i
+.PHONY : src/meSch_panel.cpp.i
+
+src/meSch_panel.s: src/meSch_panel.cpp.s
+
+.PHONY : src/meSch_panel.s
+
+# target to generate assembly for a file
+src/meSch_panel.cpp.s:
+	$(MAKE) -f CMakeFiles/dasc_robot_gui.dir/build.make CMakeFiles/dasc_robot_gui.dir/src/meSch_panel.cpp.s
+.PHONY : src/meSch_panel.cpp.s
+
 src/teleop_panel.o: src/teleop_panel.cpp.o
 
 .PHONY : src/teleop_panel.o
@@ -323,6 +350,9 @@ help:
 	@echo "... src/eware_panel.o"
 	@echo "... src/eware_panel.i"
 	@echo "... src/eware_panel.s"
+	@echo "... src/meSch_panel.o"
+	@echo "... src/meSch_panel.i"
+	@echo "... src/meSch_panel.s"
 	@echo "... src/teleop_panel.o"
 	@echo "... src/teleop_panel.i"
 	@echo "... src/teleop_panel.s"

@@ -1,7 +1,13 @@
 {
   "package_name": "dasc_msgs",
   "non_idl_tuples": [
+    "/root/colcon_ws/src/dasc_ros_common/dasc_msgs:msg/DIState.msg",
+    "/root/colcon_ws/src/dasc_ros_common/dasc_msgs:msg/DIAcc.msg",
     "/root/colcon_ws/src/dasc_ros_common/dasc_msgs:msg/DITrajectory.msg",
-    "/root/colcon_ws/src/dasc_ros_common/dasc_msgs:msg/EwareMissionStatus.msg"
+    "/root/colcon_ws/src/dasc_ros_common/dasc_msgs:msg/DITrajectorySimple.msg",
+    "/root/colcon_ws/src/dasc_ros_common/dasc_msgs:msg/EwareMissionStatus.msg",
+    "/root/colcon_ws/src/dasc_ros_common/dasc_msgs:msg/CandToSp.msg",
+    "/root/colcon_ws/src/dasc_ros_common/dasc_msgs:msg/SpToCand.msg",
+    "/root/colcon_ws/src/dasc_ros_common/dasc_msgs:msg/MeschMissionStatus.msg"
   ]
 }

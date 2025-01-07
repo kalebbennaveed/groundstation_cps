@@ -3,8 +3,14 @@
   "output_dir": "/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs",
   "template_dir": "/opt/ros/galactic/share/rosidl_generator_py/cmake/../resource",
   "idl_tuples": [
+    "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs:msg/DIState.idl",
+    "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs:msg/DIAcc.idl",
     "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs:msg/DITrajectory.idl",
-    "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs:msg/EwareMissionStatus.idl"
+    "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs:msg/DITrajectorySimple.idl",
+    "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs:msg/EwareMissionStatus.idl",
+    "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs:msg/CandToSp.idl",
+    "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs:msg/SpToCand.idl",
+    "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs:msg/MeschMissionStatus.idl"
   ],
   "ros_interface_dependencies": [
     "geometry_msgs:/opt/ros/galactic/share/geometry_msgs/msg/Accel.idl",
@@ -83,8 +89,14 @@
     "/opt/ros/galactic/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
     "/opt/ros/galactic/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
     "/opt/ros/galactic/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
+    "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs/msg/DIState.idl",
+    "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs/msg/DIAcc.idl",
     "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs/msg/DITrajectory.idl",
+    "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs/msg/DITrajectorySimple.idl",
     "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs/msg/EwareMissionStatus.idl",
+    "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs/msg/CandToSp.idl",
+    "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs/msg/SpToCand.idl",
+    "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs/msg/MeschMissionStatus.idl",
     "/opt/ros/galactic/share/geometry_msgs/msg/Accel.idl",
     "/opt/ros/galactic/share/geometry_msgs/msg/AccelStamped.idl",
     "/opt/ros/galactic/share/geometry_msgs/msg/AccelWithCovariance.idl",

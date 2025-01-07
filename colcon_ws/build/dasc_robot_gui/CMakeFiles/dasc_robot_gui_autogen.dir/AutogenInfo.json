@@ -13,6 +13,11 @@
 			"UVLADIE3JM/moc_eware_panel.cpp"
 		],
 		[
+			"/root/colcon_ws/src/dasc_robot_gui/src/meSch_panel.hpp",
+			"Mu",
+			"UVLADIE3JM/moc_meSch_panel.cpp"
+		],
+		[
 			"/root/colcon_ws/src/dasc_robot_gui/src/teleop_panel.hpp",
 			"Mu",
 			"UVLADIE3JM/moc_teleop_panel.cpp"
@@ -84,6 +89,7 @@
 	"SOURCES" : 
 	[
 		[ "/root/colcon_ws/src/dasc_robot_gui/src/eware_panel.cpp", "Mu" ],
+		[ "/root/colcon_ws/src/dasc_robot_gui/src/meSch_panel.cpp", "Mu" ],
 		[ "/root/colcon_ws/src/dasc_robot_gui/src/teleop_panel.cpp", "Mu" ]
 	],
 	"VERBOSITY" : 0

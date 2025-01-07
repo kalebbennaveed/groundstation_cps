@@ -53,127 +53,253 @@ CMAKE_BINARY_DIR = /root/colcon_ws/build/dasc_msgs
 # Include the progress variables for this target.
 include CMakeFiles/dasc_msgs__cpp.dir/progress.make
 
+CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp
+CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/di_state__builder.hpp
+CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/di_state__struct.hpp
+CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/di_state__traits.hpp
+CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/di_acc.hpp
+CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/di_acc__builder.hpp
+CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/di_acc__struct.hpp
+CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/di_acc__traits.hpp
 CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp
 CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/di_trajectory__builder.hpp
 CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/di_trajectory__struct.hpp
 CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/di_trajectory__traits.hpp
+CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/di_trajectory_simple.hpp
+CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/di_trajectory_simple__builder.hpp
+CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/di_trajectory_simple__struct.hpp
+CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/di_trajectory_simple__traits.hpp
 CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/eware_mission_status.hpp
 CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/eware_mission_status__builder.hpp
 CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/eware_mission_status__struct.hpp
 CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/eware_mission_status__traits.hpp
+CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/cand_to_sp.hpp
+CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/cand_to_sp__builder.hpp
+CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/cand_to_sp__struct.hpp
+CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/cand_to_sp__traits.hpp
+CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/sp_to_cand.hpp
+CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/sp_to_cand__builder.hpp
+CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/sp_to_cand__struct.hpp
+CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/sp_to_cand__traits.hpp
+CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/mesch_mission_status.hpp
+CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/mesch_mission_status__builder.hpp
+CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/mesch_mission_status__struct.hpp
+CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/mesch_mission_status__traits.hpp
 
 
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/lib/rosidl_generator_cpp/rosidl_generator_cpp
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/lib/python3.8/site-packages/rosidl_generator_cpp/__init__.py
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/action__builder.hpp.em
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/action__struct.hpp.em
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/action__traits.hpp.em
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/idl.hpp.em
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/idl__builder.hpp.em
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/idl__struct.hpp.em
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/idl__traits.hpp.em
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/msg__builder.hpp.em
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/msg__struct.hpp.em
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/msg__traits.hpp.em
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/srv__builder.hpp.em
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: rosidl_adapter/dasc_msgs/msg/DITrajectory.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: rosidl_adapter/dasc_msgs/msg/EwareMissionStatus.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/geometry_msgs/msg/Accel.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/geometry_msgs/msg/AccelStamped.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/geometry_msgs/msg/AccelWithCovariance.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/geometry_msgs/msg/AccelWithCovarianceStamped.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/geometry_msgs/msg/Inertia.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/geometry_msgs/msg/InertiaStamped.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/geometry_msgs/msg/Point.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/geometry_msgs/msg/Point32.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/geometry_msgs/msg/PointStamped.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/geometry_msgs/msg/Polygon.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/geometry_msgs/msg/PolygonStamped.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/geometry_msgs/msg/Pose.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/geometry_msgs/msg/Pose2D.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/geometry_msgs/msg/PoseArray.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/geometry_msgs/msg/PoseStamped.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/geometry_msgs/msg/PoseWithCovariance.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/geometry_msgs/msg/PoseWithCovarianceStamped.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/geometry_msgs/msg/Quaternion.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/geometry_msgs/msg/QuaternionStamped.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/geometry_msgs/msg/Transform.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/geometry_msgs/msg/TransformStamped.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/geometry_msgs/msg/Twist.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/geometry_msgs/msg/TwistStamped.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/geometry_msgs/msg/TwistWithCovariance.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/geometry_msgs/msg/TwistWithCovarianceStamped.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/geometry_msgs/msg/Vector3.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/geometry_msgs/msg/Vector3Stamped.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/geometry_msgs/msg/Wrench.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/geometry_msgs/msg/WrenchStamped.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/std_msgs/msg/Bool.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/std_msgs/msg/Byte.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/std_msgs/msg/ByteMultiArray.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/std_msgs/msg/Char.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/std_msgs/msg/ColorRGBA.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/std_msgs/msg/Empty.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/std_msgs/msg/Float32.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/std_msgs/msg/Float32MultiArray.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/std_msgs/msg/Float64.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/std_msgs/msg/Float64MultiArray.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/std_msgs/msg/Header.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/std_msgs/msg/Int16.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/std_msgs/msg/Int16MultiArray.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/std_msgs/msg/Int32.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/std_msgs/msg/Int32MultiArray.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/std_msgs/msg/Int64.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/std_msgs/msg/Int64MultiArray.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/std_msgs/msg/Int8.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/std_msgs/msg/Int8MultiArray.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/std_msgs/msg/MultiArrayDimension.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/std_msgs/msg/MultiArrayLayout.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/std_msgs/msg/String.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/std_msgs/msg/UInt16.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/std_msgs/msg/UInt16MultiArray.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/std_msgs/msg/UInt32.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/std_msgs/msg/UInt32MultiArray.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/std_msgs/msg/UInt64.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/std_msgs/msg/UInt64MultiArray.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/std_msgs/msg/UInt8.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/std_msgs/msg/UInt8MultiArray.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/builtin_interfaces/msg/Duration.idl
-rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: /opt/ros/galactic/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/lib/rosidl_generator_cpp/rosidl_generator_cpp
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/lib/python3.8/site-packages/rosidl_generator_cpp/__init__.py
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/action__builder.hpp.em
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/action__struct.hpp.em
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/action__traits.hpp.em
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/idl.hpp.em
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/idl__builder.hpp.em
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/idl__struct.hpp.em
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/idl__traits.hpp.em
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/msg__builder.hpp.em
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/msg__struct.hpp.em
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/msg__traits.hpp.em
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/srv__builder.hpp.em
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: rosidl_adapter/dasc_msgs/msg/DIState.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: rosidl_adapter/dasc_msgs/msg/DIAcc.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: rosidl_adapter/dasc_msgs/msg/DITrajectory.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: rosidl_adapter/dasc_msgs/msg/DITrajectorySimple.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: rosidl_adapter/dasc_msgs/msg/EwareMissionStatus.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: rosidl_adapter/dasc_msgs/msg/CandToSp.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: rosidl_adapter/dasc_msgs/msg/SpToCand.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: rosidl_adapter/dasc_msgs/msg/MeschMissionStatus.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/geometry_msgs/msg/Accel.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/geometry_msgs/msg/AccelStamped.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/geometry_msgs/msg/AccelWithCovariance.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/geometry_msgs/msg/AccelWithCovarianceStamped.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/geometry_msgs/msg/Inertia.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/geometry_msgs/msg/InertiaStamped.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/geometry_msgs/msg/Point.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/geometry_msgs/msg/Point32.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/geometry_msgs/msg/PointStamped.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/geometry_msgs/msg/Polygon.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/geometry_msgs/msg/PolygonStamped.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/geometry_msgs/msg/Pose.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/geometry_msgs/msg/Pose2D.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/geometry_msgs/msg/PoseArray.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/geometry_msgs/msg/PoseStamped.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/geometry_msgs/msg/PoseWithCovariance.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/geometry_msgs/msg/PoseWithCovarianceStamped.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/geometry_msgs/msg/Quaternion.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/geometry_msgs/msg/QuaternionStamped.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/geometry_msgs/msg/Transform.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/geometry_msgs/msg/TransformStamped.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/geometry_msgs/msg/Twist.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/geometry_msgs/msg/TwistStamped.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/geometry_msgs/msg/TwistWithCovariance.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/geometry_msgs/msg/TwistWithCovarianceStamped.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/geometry_msgs/msg/Vector3.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/geometry_msgs/msg/Vector3Stamped.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/geometry_msgs/msg/Wrench.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/geometry_msgs/msg/WrenchStamped.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/std_msgs/msg/Bool.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/std_msgs/msg/Byte.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/std_msgs/msg/ByteMultiArray.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/std_msgs/msg/Char.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/std_msgs/msg/ColorRGBA.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/std_msgs/msg/Empty.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/std_msgs/msg/Float32.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/std_msgs/msg/Float32MultiArray.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/std_msgs/msg/Float64.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/std_msgs/msg/Float64MultiArray.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/std_msgs/msg/Header.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/std_msgs/msg/Int16.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/std_msgs/msg/Int16MultiArray.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/std_msgs/msg/Int32.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/std_msgs/msg/Int32MultiArray.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/std_msgs/msg/Int64.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/std_msgs/msg/Int64MultiArray.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/std_msgs/msg/Int8.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/std_msgs/msg/Int8MultiArray.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/std_msgs/msg/MultiArrayDimension.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/std_msgs/msg/MultiArrayLayout.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/std_msgs/msg/String.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/std_msgs/msg/UInt16.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/std_msgs/msg/UInt16MultiArray.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/std_msgs/msg/UInt32.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/std_msgs/msg/UInt32MultiArray.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/std_msgs/msg/UInt64.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/std_msgs/msg/UInt64MultiArray.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/std_msgs/msg/UInt8.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/std_msgs/msg/UInt8MultiArray.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/colcon_ws/build/dasc_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/galactic/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /root/colcon_ws/build/dasc_msgs/rosidl_generator_cpp__arguments.json
 
-rosidl_generator_cpp/dasc_msgs/msg/detail/di_trajectory__builder.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp
+rosidl_generator_cpp/dasc_msgs/msg/detail/di_state__builder.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dasc_msgs/msg/detail/di_state__builder.hpp
+
+rosidl_generator_cpp/dasc_msgs/msg/detail/di_state__struct.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dasc_msgs/msg/detail/di_state__struct.hpp
+
+rosidl_generator_cpp/dasc_msgs/msg/detail/di_state__traits.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dasc_msgs/msg/detail/di_state__traits.hpp
+
+rosidl_generator_cpp/dasc_msgs/msg/di_acc.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dasc_msgs/msg/di_acc.hpp
+
+rosidl_generator_cpp/dasc_msgs/msg/detail/di_acc__builder.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dasc_msgs/msg/detail/di_acc__builder.hpp
+
+rosidl_generator_cpp/dasc_msgs/msg/detail/di_acc__struct.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dasc_msgs/msg/detail/di_acc__struct.hpp
+
+rosidl_generator_cpp/dasc_msgs/msg/detail/di_acc__traits.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dasc_msgs/msg/detail/di_acc__traits.hpp
+
+rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp
+
+rosidl_generator_cpp/dasc_msgs/msg/detail/di_trajectory__builder.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dasc_msgs/msg/detail/di_trajectory__builder.hpp
 
-rosidl_generator_cpp/dasc_msgs/msg/detail/di_trajectory__struct.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp
+rosidl_generator_cpp/dasc_msgs/msg/detail/di_trajectory__struct.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dasc_msgs/msg/detail/di_trajectory__struct.hpp
 
-rosidl_generator_cpp/dasc_msgs/msg/detail/di_trajectory__traits.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp
+rosidl_generator_cpp/dasc_msgs/msg/detail/di_trajectory__traits.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dasc_msgs/msg/detail/di_trajectory__traits.hpp
 
-rosidl_generator_cpp/dasc_msgs/msg/eware_mission_status.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp
+rosidl_generator_cpp/dasc_msgs/msg/di_trajectory_simple.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dasc_msgs/msg/di_trajectory_simple.hpp
+
+rosidl_generator_cpp/dasc_msgs/msg/detail/di_trajectory_simple__builder.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dasc_msgs/msg/detail/di_trajectory_simple__builder.hpp
+
+rosidl_generator_cpp/dasc_msgs/msg/detail/di_trajectory_simple__struct.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dasc_msgs/msg/detail/di_trajectory_simple__struct.hpp
+
+rosidl_generator_cpp/dasc_msgs/msg/detail/di_trajectory_simple__traits.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dasc_msgs/msg/detail/di_trajectory_simple__traits.hpp
+
+rosidl_generator_cpp/dasc_msgs/msg/eware_mission_status.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dasc_msgs/msg/eware_mission_status.hpp
 
-rosidl_generator_cpp/dasc_msgs/msg/detail/eware_mission_status__builder.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp
+rosidl_generator_cpp/dasc_msgs/msg/detail/eware_mission_status__builder.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dasc_msgs/msg/detail/eware_mission_status__builder.hpp
 
-rosidl_generator_cpp/dasc_msgs/msg/detail/eware_mission_status__struct.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp
+rosidl_generator_cpp/dasc_msgs/msg/detail/eware_mission_status__struct.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dasc_msgs/msg/detail/eware_mission_status__struct.hpp
 
-rosidl_generator_cpp/dasc_msgs/msg/detail/eware_mission_status__traits.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp
+rosidl_generator_cpp/dasc_msgs/msg/detail/eware_mission_status__traits.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dasc_msgs/msg/detail/eware_mission_status__traits.hpp
 
+rosidl_generator_cpp/dasc_msgs/msg/cand_to_sp.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dasc_msgs/msg/cand_to_sp.hpp
+
+rosidl_generator_cpp/dasc_msgs/msg/detail/cand_to_sp__builder.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dasc_msgs/msg/detail/cand_to_sp__builder.hpp
+
+rosidl_generator_cpp/dasc_msgs/msg/detail/cand_to_sp__struct.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dasc_msgs/msg/detail/cand_to_sp__struct.hpp
+
+rosidl_generator_cpp/dasc_msgs/msg/detail/cand_to_sp__traits.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dasc_msgs/msg/detail/cand_to_sp__traits.hpp
+
+rosidl_generator_cpp/dasc_msgs/msg/sp_to_cand.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dasc_msgs/msg/sp_to_cand.hpp
+
+rosidl_generator_cpp/dasc_msgs/msg/detail/sp_to_cand__builder.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dasc_msgs/msg/detail/sp_to_cand__builder.hpp
+
+rosidl_generator_cpp/dasc_msgs/msg/detail/sp_to_cand__struct.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dasc_msgs/msg/detail/sp_to_cand__struct.hpp
+
+rosidl_generator_cpp/dasc_msgs/msg/detail/sp_to_cand__traits.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dasc_msgs/msg/detail/sp_to_cand__traits.hpp
+
+rosidl_generator_cpp/dasc_msgs/msg/mesch_mission_status.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dasc_msgs/msg/mesch_mission_status.hpp
+
+rosidl_generator_cpp/dasc_msgs/msg/detail/mesch_mission_status__builder.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dasc_msgs/msg/detail/mesch_mission_status__builder.hpp
+
+rosidl_generator_cpp/dasc_msgs/msg/detail/mesch_mission_status__struct.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dasc_msgs/msg/detail/mesch_mission_status__struct.hpp
+
+rosidl_generator_cpp/dasc_msgs/msg/detail/mesch_mission_status__traits.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dasc_msgs/msg/detail/mesch_mission_status__traits.hpp
+
 dasc_msgs__cpp: CMakeFiles/dasc_msgs__cpp
+dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp
+dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/di_state__builder.hpp
+dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/di_state__struct.hpp
+dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/di_state__traits.hpp
+dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/di_acc.hpp
+dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/di_acc__builder.hpp
+dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/di_acc__struct.hpp
+dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/di_acc__traits.hpp
 dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/di_trajectory.hpp
 dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/di_trajectory__builder.hpp
 dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/di_trajectory__struct.hpp
 dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/di_trajectory__traits.hpp
+dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/di_trajectory_simple.hpp
+dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/di_trajectory_simple__builder.hpp
+dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/di_trajectory_simple__struct.hpp
+dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/di_trajectory_simple__traits.hpp
 dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/eware_mission_status.hpp
 dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/eware_mission_status__builder.hpp
 dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/eware_mission_status__struct.hpp
 dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/eware_mission_status__traits.hpp
+dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/cand_to_sp.hpp
+dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/cand_to_sp__builder.hpp
+dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/cand_to_sp__struct.hpp
+dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/cand_to_sp__traits.hpp
+dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/sp_to_cand.hpp
+dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/sp_to_cand__builder.hpp
+dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/sp_to_cand__struct.hpp
+dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/sp_to_cand__traits.hpp
+dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/mesch_mission_status.hpp
+dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/mesch_mission_status__builder.hpp
+dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/mesch_mission_status__struct.hpp
+dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/mesch_mission_status__traits.hpp
 dasc_msgs__cpp: CMakeFiles/dasc_msgs__cpp.dir/build.make
 
 .PHONY : dasc_msgs__cpp

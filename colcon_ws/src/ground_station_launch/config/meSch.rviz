@@ -41,6 +41,11 @@ Panels:
   - Class: dasc_robot_gui/Teleop
     Name: Teleop_px4_102
     Topic: px4_102
+  - Class: dasc_robot_gui/meSch
+    Name: meSch_Gui
+    Robot_1: px4_100
+    Robot_2: px4_101
+    Robot_3: px4_102
 Visualization Manager:
   Class: ""
   Displays:

@@ -57,115 +57,237 @@ include CMakeFiles/dasc_msgs__rosidl_generator_c.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/dasc_msgs__rosidl_generator_c.dir/flags.make
 
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/lib/rosidl_generator_c/rosidl_generator_c
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/lib/python3.8/site-packages/rosidl_generator_c/__init__.py
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/rosidl_generator_c/resource/action__type_support.h.em
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/rosidl_generator_c/resource/idl.h.em
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/rosidl_generator_c/resource/idl__functions.c.em
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/rosidl_generator_c/resource/idl__functions.h.em
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/rosidl_generator_c/resource/idl__struct.h.em
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/rosidl_generator_c/resource/idl__type_support.h.em
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/rosidl_generator_c/resource/msg__functions.c.em
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/rosidl_generator_c/resource/msg__functions.h.em
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/rosidl_generator_c/resource/msg__struct.h.em
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/rosidl_generator_c/resource/msg__type_support.h.em
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/rosidl_generator_c/resource/srv__type_support.h.em
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: rosidl_adapter/dasc_msgs/msg/DITrajectory.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: rosidl_adapter/dasc_msgs/msg/EwareMissionStatus.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/geometry_msgs/msg/Accel.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/geometry_msgs/msg/AccelStamped.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/geometry_msgs/msg/AccelWithCovariance.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/geometry_msgs/msg/AccelWithCovarianceStamped.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/geometry_msgs/msg/Inertia.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/geometry_msgs/msg/InertiaStamped.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/geometry_msgs/msg/Point.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/geometry_msgs/msg/Point32.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/geometry_msgs/msg/PointStamped.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/geometry_msgs/msg/Polygon.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/geometry_msgs/msg/PolygonStamped.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/geometry_msgs/msg/Pose.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/geometry_msgs/msg/Pose2D.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/geometry_msgs/msg/PoseArray.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/geometry_msgs/msg/PoseStamped.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/geometry_msgs/msg/PoseWithCovariance.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/geometry_msgs/msg/PoseWithCovarianceStamped.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/geometry_msgs/msg/Quaternion.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/geometry_msgs/msg/QuaternionStamped.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/geometry_msgs/msg/Transform.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/geometry_msgs/msg/TransformStamped.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/geometry_msgs/msg/Twist.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/geometry_msgs/msg/TwistStamped.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/geometry_msgs/msg/TwistWithCovariance.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/geometry_msgs/msg/TwistWithCovarianceStamped.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/geometry_msgs/msg/Vector3.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/geometry_msgs/msg/Vector3Stamped.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/geometry_msgs/msg/Wrench.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/geometry_msgs/msg/WrenchStamped.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/std_msgs/msg/Bool.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/std_msgs/msg/Byte.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/std_msgs/msg/ByteMultiArray.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/std_msgs/msg/Char.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/std_msgs/msg/ColorRGBA.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/std_msgs/msg/Empty.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/std_msgs/msg/Float32.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/std_msgs/msg/Float32MultiArray.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/std_msgs/msg/Float64.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/std_msgs/msg/Float64MultiArray.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/std_msgs/msg/Header.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/std_msgs/msg/Int16.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/std_msgs/msg/Int16MultiArray.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/std_msgs/msg/Int32.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/std_msgs/msg/Int32MultiArray.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/std_msgs/msg/Int64.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/std_msgs/msg/Int64MultiArray.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/std_msgs/msg/Int8.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/std_msgs/msg/Int8MultiArray.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/std_msgs/msg/MultiArrayDimension.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/std_msgs/msg/MultiArrayLayout.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/std_msgs/msg/String.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/std_msgs/msg/UInt16.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/std_msgs/msg/UInt16MultiArray.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/std_msgs/msg/UInt32.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/std_msgs/msg/UInt32MultiArray.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/std_msgs/msg/UInt64.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/std_msgs/msg/UInt64MultiArray.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/std_msgs/msg/UInt8.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/std_msgs/msg/UInt8MultiArray.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/builtin_interfaces/msg/Duration.idl
-rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: /opt/ros/galactic/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/lib/rosidl_generator_c/rosidl_generator_c
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/lib/python3.8/site-packages/rosidl_generator_c/__init__.py
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/rosidl_generator_c/resource/action__type_support.h.em
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/rosidl_generator_c/resource/idl.h.em
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/rosidl_generator_c/resource/idl__functions.c.em
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/rosidl_generator_c/resource/idl__functions.h.em
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/rosidl_generator_c/resource/idl__struct.h.em
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/rosidl_generator_c/resource/idl__type_support.h.em
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/rosidl_generator_c/resource/msg__functions.c.em
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/rosidl_generator_c/resource/msg__functions.h.em
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/rosidl_generator_c/resource/msg__struct.h.em
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/rosidl_generator_c/resource/msg__type_support.h.em
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/rosidl_generator_c/resource/srv__type_support.h.em
+rosidl_generator_c/dasc_msgs/msg/di_state.h: rosidl_adapter/dasc_msgs/msg/DIState.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: rosidl_adapter/dasc_msgs/msg/DIAcc.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: rosidl_adapter/dasc_msgs/msg/DITrajectory.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: rosidl_adapter/dasc_msgs/msg/DITrajectorySimple.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: rosidl_adapter/dasc_msgs/msg/EwareMissionStatus.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: rosidl_adapter/dasc_msgs/msg/CandToSp.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: rosidl_adapter/dasc_msgs/msg/SpToCand.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: rosidl_adapter/dasc_msgs/msg/MeschMissionStatus.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/geometry_msgs/msg/Accel.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/geometry_msgs/msg/AccelStamped.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/geometry_msgs/msg/AccelWithCovariance.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/geometry_msgs/msg/AccelWithCovarianceStamped.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/geometry_msgs/msg/Inertia.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/geometry_msgs/msg/InertiaStamped.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/geometry_msgs/msg/Point.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/geometry_msgs/msg/Point32.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/geometry_msgs/msg/PointStamped.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/geometry_msgs/msg/Polygon.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/geometry_msgs/msg/PolygonStamped.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/geometry_msgs/msg/Pose.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/geometry_msgs/msg/Pose2D.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/geometry_msgs/msg/PoseArray.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/geometry_msgs/msg/PoseStamped.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/geometry_msgs/msg/PoseWithCovariance.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/geometry_msgs/msg/PoseWithCovarianceStamped.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/geometry_msgs/msg/Quaternion.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/geometry_msgs/msg/QuaternionStamped.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/geometry_msgs/msg/Transform.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/geometry_msgs/msg/TransformStamped.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/geometry_msgs/msg/Twist.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/geometry_msgs/msg/TwistStamped.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/geometry_msgs/msg/TwistWithCovariance.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/geometry_msgs/msg/TwistWithCovarianceStamped.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/geometry_msgs/msg/Vector3.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/geometry_msgs/msg/Vector3Stamped.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/geometry_msgs/msg/Wrench.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/geometry_msgs/msg/WrenchStamped.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/std_msgs/msg/Bool.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/std_msgs/msg/Byte.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/std_msgs/msg/ByteMultiArray.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/std_msgs/msg/Char.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/std_msgs/msg/ColorRGBA.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/std_msgs/msg/Empty.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/std_msgs/msg/Float32.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/std_msgs/msg/Float32MultiArray.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/std_msgs/msg/Float64.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/std_msgs/msg/Float64MultiArray.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/std_msgs/msg/Header.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/std_msgs/msg/Int16.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/std_msgs/msg/Int16MultiArray.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/std_msgs/msg/Int32.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/std_msgs/msg/Int32MultiArray.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/std_msgs/msg/Int64.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/std_msgs/msg/Int64MultiArray.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/std_msgs/msg/Int8.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/std_msgs/msg/Int8MultiArray.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/std_msgs/msg/MultiArrayDimension.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/std_msgs/msg/MultiArrayLayout.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/std_msgs/msg/String.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/std_msgs/msg/UInt16.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/std_msgs/msg/UInt16MultiArray.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/std_msgs/msg/UInt32.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/std_msgs/msg/UInt32MultiArray.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/std_msgs/msg/UInt64.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/std_msgs/msg/UInt64MultiArray.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/std_msgs/msg/UInt8.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/std_msgs/msg/UInt8MultiArray.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/colcon_ws/build/dasc_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/galactic/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /root/colcon_ws/build/dasc_msgs/rosidl_generator_c__arguments.json
 
-rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory__functions.h: rosidl_generator_c/dasc_msgs/msg/di_trajectory.h
+rosidl_generator_c/dasc_msgs/msg/detail/di_state__functions.h: rosidl_generator_c/dasc_msgs/msg/di_state.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/detail/di_state__functions.h
+
+rosidl_generator_c/dasc_msgs/msg/detail/di_state__struct.h: rosidl_generator_c/dasc_msgs/msg/di_state.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/detail/di_state__struct.h
+
+rosidl_generator_c/dasc_msgs/msg/detail/di_state__type_support.h: rosidl_generator_c/dasc_msgs/msg/di_state.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/detail/di_state__type_support.h
+
+rosidl_generator_c/dasc_msgs/msg/di_acc.h: rosidl_generator_c/dasc_msgs/msg/di_state.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/di_acc.h
+
+rosidl_generator_c/dasc_msgs/msg/detail/di_acc__functions.h: rosidl_generator_c/dasc_msgs/msg/di_state.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/detail/di_acc__functions.h
+
+rosidl_generator_c/dasc_msgs/msg/detail/di_acc__struct.h: rosidl_generator_c/dasc_msgs/msg/di_state.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/detail/di_acc__struct.h
+
+rosidl_generator_c/dasc_msgs/msg/detail/di_acc__type_support.h: rosidl_generator_c/dasc_msgs/msg/di_state.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/detail/di_acc__type_support.h
+
+rosidl_generator_c/dasc_msgs/msg/di_trajectory.h: rosidl_generator_c/dasc_msgs/msg/di_state.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/di_trajectory.h
+
+rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory__functions.h: rosidl_generator_c/dasc_msgs/msg/di_state.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory__functions.h
 
-rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory__struct.h: rosidl_generator_c/dasc_msgs/msg/di_trajectory.h
+rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory__struct.h: rosidl_generator_c/dasc_msgs/msg/di_state.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory__struct.h
 
-rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory__type_support.h: rosidl_generator_c/dasc_msgs/msg/di_trajectory.h
+rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory__type_support.h: rosidl_generator_c/dasc_msgs/msg/di_state.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory__type_support.h
 
-rosidl_generator_c/dasc_msgs/msg/eware_mission_status.h: rosidl_generator_c/dasc_msgs/msg/di_trajectory.h
+rosidl_generator_c/dasc_msgs/msg/di_trajectory_simple.h: rosidl_generator_c/dasc_msgs/msg/di_state.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/di_trajectory_simple.h
+
+rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory_simple__functions.h: rosidl_generator_c/dasc_msgs/msg/di_state.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory_simple__functions.h
+
+rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory_simple__struct.h: rosidl_generator_c/dasc_msgs/msg/di_state.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory_simple__struct.h
+
+rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory_simple__type_support.h: rosidl_generator_c/dasc_msgs/msg/di_state.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory_simple__type_support.h
+
+rosidl_generator_c/dasc_msgs/msg/eware_mission_status.h: rosidl_generator_c/dasc_msgs/msg/di_state.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/eware_mission_status.h
 
-rosidl_generator_c/dasc_msgs/msg/detail/eware_mission_status__functions.h: rosidl_generator_c/dasc_msgs/msg/di_trajectory.h
+rosidl_generator_c/dasc_msgs/msg/detail/eware_mission_status__functions.h: rosidl_generator_c/dasc_msgs/msg/di_state.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/detail/eware_mission_status__functions.h
 
-rosidl_generator_c/dasc_msgs/msg/detail/eware_mission_status__struct.h: rosidl_generator_c/dasc_msgs/msg/di_trajectory.h
+rosidl_generator_c/dasc_msgs/msg/detail/eware_mission_status__struct.h: rosidl_generator_c/dasc_msgs/msg/di_state.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/detail/eware_mission_status__struct.h
 
-rosidl_generator_c/dasc_msgs/msg/detail/eware_mission_status__type_support.h: rosidl_generator_c/dasc_msgs/msg/di_trajectory.h
+rosidl_generator_c/dasc_msgs/msg/detail/eware_mission_status__type_support.h: rosidl_generator_c/dasc_msgs/msg/di_state.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/detail/eware_mission_status__type_support.h
 
-rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory__functions.c: rosidl_generator_c/dasc_msgs/msg/di_trajectory.h
+rosidl_generator_c/dasc_msgs/msg/cand_to_sp.h: rosidl_generator_c/dasc_msgs/msg/di_state.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/cand_to_sp.h
+
+rosidl_generator_c/dasc_msgs/msg/detail/cand_to_sp__functions.h: rosidl_generator_c/dasc_msgs/msg/di_state.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/detail/cand_to_sp__functions.h
+
+rosidl_generator_c/dasc_msgs/msg/detail/cand_to_sp__struct.h: rosidl_generator_c/dasc_msgs/msg/di_state.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/detail/cand_to_sp__struct.h
+
+rosidl_generator_c/dasc_msgs/msg/detail/cand_to_sp__type_support.h: rosidl_generator_c/dasc_msgs/msg/di_state.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/detail/cand_to_sp__type_support.h
+
+rosidl_generator_c/dasc_msgs/msg/sp_to_cand.h: rosidl_generator_c/dasc_msgs/msg/di_state.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/sp_to_cand.h
+
+rosidl_generator_c/dasc_msgs/msg/detail/sp_to_cand__functions.h: rosidl_generator_c/dasc_msgs/msg/di_state.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/detail/sp_to_cand__functions.h
+
+rosidl_generator_c/dasc_msgs/msg/detail/sp_to_cand__struct.h: rosidl_generator_c/dasc_msgs/msg/di_state.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/detail/sp_to_cand__struct.h
+
+rosidl_generator_c/dasc_msgs/msg/detail/sp_to_cand__type_support.h: rosidl_generator_c/dasc_msgs/msg/di_state.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/detail/sp_to_cand__type_support.h
+
+rosidl_generator_c/dasc_msgs/msg/mesch_mission_status.h: rosidl_generator_c/dasc_msgs/msg/di_state.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/mesch_mission_status.h
+
+rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__functions.h: rosidl_generator_c/dasc_msgs/msg/di_state.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__functions.h
+
+rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__struct.h: rosidl_generator_c/dasc_msgs/msg/di_state.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__struct.h
+
+rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__type_support.h: rosidl_generator_c/dasc_msgs/msg/di_state.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__type_support.h
+
+rosidl_generator_c/dasc_msgs/msg/detail/di_state__functions.c: rosidl_generator_c/dasc_msgs/msg/di_state.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/detail/di_state__functions.c
+
+rosidl_generator_c/dasc_msgs/msg/detail/di_acc__functions.c: rosidl_generator_c/dasc_msgs/msg/di_state.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/detail/di_acc__functions.c
+
+rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory__functions.c: rosidl_generator_c/dasc_msgs/msg/di_state.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory__functions.c
 
-rosidl_generator_c/dasc_msgs/msg/detail/eware_mission_status__functions.c: rosidl_generator_c/dasc_msgs/msg/di_trajectory.h
+rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory_simple__functions.c: rosidl_generator_c/dasc_msgs/msg/di_state.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory_simple__functions.c
+
+rosidl_generator_c/dasc_msgs/msg/detail/eware_mission_status__functions.c: rosidl_generator_c/dasc_msgs/msg/di_state.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/detail/eware_mission_status__functions.c
+
+rosidl_generator_c/dasc_msgs/msg/detail/cand_to_sp__functions.c: rosidl_generator_c/dasc_msgs/msg/di_state.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/detail/cand_to_sp__functions.c
+
+rosidl_generator_c/dasc_msgs/msg/detail/sp_to_cand__functions.c: rosidl_generator_c/dasc_msgs/msg/di_state.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/detail/sp_to_cand__functions.c
+
+rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__functions.c: rosidl_generator_c/dasc_msgs/msg/di_state.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__functions.c
+
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_state__functions.c.o: CMakeFiles/dasc_msgs__rosidl_generator_c.dir/flags.make
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_state__functions.c.o: rosidl_generator_c/dasc_msgs/msg/detail/di_state__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/dasc_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_state__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_state__functions.c.o   -c /root/colcon_ws/build/dasc_msgs/rosidl_generator_c/dasc_msgs/msg/detail/di_state__functions.c
+
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_state__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_state__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/colcon_ws/build/dasc_msgs/rosidl_generator_c/dasc_msgs/msg/detail/di_state__functions.c > CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_state__functions.c.i
+
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_state__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_state__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/colcon_ws/build/dasc_msgs/rosidl_generator_c/dasc_msgs/msg/detail/di_state__functions.c -o CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_state__functions.c.s
+
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_acc__functions.c.o: CMakeFiles/dasc_msgs__rosidl_generator_c.dir/flags.make
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_acc__functions.c.o: rosidl_generator_c/dasc_msgs/msg/detail/di_acc__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/dasc_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_acc__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_acc__functions.c.o   -c /root/colcon_ws/build/dasc_msgs/rosidl_generator_c/dasc_msgs/msg/detail/di_acc__functions.c
+
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_acc__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_acc__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/colcon_ws/build/dasc_msgs/rosidl_generator_c/dasc_msgs/msg/detail/di_acc__functions.c > CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_acc__functions.c.i
+
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_acc__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_acc__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/colcon_ws/build/dasc_msgs/rosidl_generator_c/dasc_msgs/msg/detail/di_acc__functions.c -o CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_acc__functions.c.s
 
 CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory__functions.c.o: CMakeFiles/dasc_msgs__rosidl_generator_c.dir/flags.make
 CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory__functions.c.o: rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory__functions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/dasc_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory__functions.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/dasc_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory__functions.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory__functions.c.o   -c /root/colcon_ws/build/dasc_msgs/rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory__functions.c
 
 CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory__functions.c.i: cmake_force
@@ -176,9 +298,22 @@ CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/de
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/colcon_ws/build/dasc_msgs/rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory__functions.c -o CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory__functions.c.s
 
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory_simple__functions.c.o: CMakeFiles/dasc_msgs__rosidl_generator_c.dir/flags.make
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory_simple__functions.c.o: rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory_simple__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/dasc_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory_simple__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory_simple__functions.c.o   -c /root/colcon_ws/build/dasc_msgs/rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory_simple__functions.c
+
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory_simple__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory_simple__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/colcon_ws/build/dasc_msgs/rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory_simple__functions.c > CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory_simple__functions.c.i
+
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory_simple__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory_simple__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/colcon_ws/build/dasc_msgs/rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory_simple__functions.c -o CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory_simple__functions.c.s
+
 CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/eware_mission_status__functions.c.o: CMakeFiles/dasc_msgs__rosidl_generator_c.dir/flags.make
 CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/eware_mission_status__functions.c.o: rosidl_generator_c/dasc_msgs/msg/detail/eware_mission_status__functions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/dasc_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/eware_mission_status__functions.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/dasc_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/eware_mission_status__functions.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/eware_mission_status__functions.c.o   -c /root/colcon_ws/build/dasc_msgs/rosidl_generator_c/dasc_msgs/msg/detail/eware_mission_status__functions.c
 
 CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/eware_mission_status__functions.c.i: cmake_force
@@ -189,16 +324,67 @@ CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/de
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/eware_mission_status__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/colcon_ws/build/dasc_msgs/rosidl_generator_c/dasc_msgs/msg/detail/eware_mission_status__functions.c -o CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/eware_mission_status__functions.c.s
 
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/cand_to_sp__functions.c.o: CMakeFiles/dasc_msgs__rosidl_generator_c.dir/flags.make
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/cand_to_sp__functions.c.o: rosidl_generator_c/dasc_msgs/msg/detail/cand_to_sp__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/dasc_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/cand_to_sp__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/cand_to_sp__functions.c.o   -c /root/colcon_ws/build/dasc_msgs/rosidl_generator_c/dasc_msgs/msg/detail/cand_to_sp__functions.c
+
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/cand_to_sp__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/cand_to_sp__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/colcon_ws/build/dasc_msgs/rosidl_generator_c/dasc_msgs/msg/detail/cand_to_sp__functions.c > CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/cand_to_sp__functions.c.i
+
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/cand_to_sp__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/cand_to_sp__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/colcon_ws/build/dasc_msgs/rosidl_generator_c/dasc_msgs/msg/detail/cand_to_sp__functions.c -o CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/cand_to_sp__functions.c.s
+
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/sp_to_cand__functions.c.o: CMakeFiles/dasc_msgs__rosidl_generator_c.dir/flags.make
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/sp_to_cand__functions.c.o: rosidl_generator_c/dasc_msgs/msg/detail/sp_to_cand__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/dasc_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/sp_to_cand__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/sp_to_cand__functions.c.o   -c /root/colcon_ws/build/dasc_msgs/rosidl_generator_c/dasc_msgs/msg/detail/sp_to_cand__functions.c
+
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/sp_to_cand__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/sp_to_cand__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/colcon_ws/build/dasc_msgs/rosidl_generator_c/dasc_msgs/msg/detail/sp_to_cand__functions.c > CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/sp_to_cand__functions.c.i
+
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/sp_to_cand__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/sp_to_cand__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/colcon_ws/build/dasc_msgs/rosidl_generator_c/dasc_msgs/msg/detail/sp_to_cand__functions.c -o CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/sp_to_cand__functions.c.s
+
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__functions.c.o: CMakeFiles/dasc_msgs__rosidl_generator_c.dir/flags.make
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__functions.c.o: rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/dasc_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__functions.c.o   -c /root/colcon_ws/build/dasc_msgs/rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__functions.c
+
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/colcon_ws/build/dasc_msgs/rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__functions.c > CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__functions.c.i
+
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/colcon_ws/build/dasc_msgs/rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__functions.c -o CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__functions.c.s
+
 # Object files for target dasc_msgs__rosidl_generator_c
 dasc_msgs__rosidl_generator_c_OBJECTS = \
+"CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_state__functions.c.o" \
+"CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_acc__functions.c.o" \
 "CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory__functions.c.o" \
-"CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/eware_mission_status__functions.c.o"
+"CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory_simple__functions.c.o" \
+"CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/eware_mission_status__functions.c.o" \
+"CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/cand_to_sp__functions.c.o" \
+"CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/sp_to_cand__functions.c.o" \
+"CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__functions.c.o"
 
 # External object files for target dasc_msgs__rosidl_generator_c
 dasc_msgs__rosidl_generator_c_EXTERNAL_OBJECTS =
 
+libdasc_msgs__rosidl_generator_c.so: CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_state__functions.c.o
+libdasc_msgs__rosidl_generator_c.so: CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_acc__functions.c.o
 libdasc_msgs__rosidl_generator_c.so: CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory__functions.c.o
+libdasc_msgs__rosidl_generator_c.so: CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory_simple__functions.c.o
 libdasc_msgs__rosidl_generator_c.so: CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/eware_mission_status__functions.c.o
+libdasc_msgs__rosidl_generator_c.so: CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/cand_to_sp__functions.c.o
+libdasc_msgs__rosidl_generator_c.so: CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/sp_to_cand__functions.c.o
+libdasc_msgs__rosidl_generator_c.so: CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__functions.c.o
 libdasc_msgs__rosidl_generator_c.so: CMakeFiles/dasc_msgs__rosidl_generator_c.dir/build.make
 libdasc_msgs__rosidl_generator_c.so: /opt/ros/galactic/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
 libdasc_msgs__rosidl_generator_c.so: /opt/ros/galactic/lib/libgeometry_msgs__rosidl_typesupport_c.so
@@ -223,7 +409,7 @@ libdasc_msgs__rosidl_generator_c.so: /opt/ros/galactic/lib/librosidl_runtime_c.s
 libdasc_msgs__rosidl_generator_c.so: /opt/ros/galactic/lib/librcpputils.so
 libdasc_msgs__rosidl_generator_c.so: /opt/ros/galactic/lib/librcutils.so
 libdasc_msgs__rosidl_generator_c.so: CMakeFiles/dasc_msgs__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/colcon_ws/build/dasc_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libdasc_msgs__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/colcon_ws/build/dasc_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C shared library libdasc_msgs__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dasc_msgs__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -235,16 +421,46 @@ CMakeFiles/dasc_msgs__rosidl_generator_c.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/dasc_msgs__rosidl_generator_c.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/dasc_msgs__rosidl_generator_c.dir/clean
 
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/di_state.h
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/di_state__functions.h
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/di_state__struct.h
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/di_state__type_support.h
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/di_acc.h
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/di_acc__functions.h
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/di_acc__struct.h
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/di_acc__type_support.h
 CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/di_trajectory.h
 CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory__functions.h
 CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory__struct.h
 CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory__type_support.h
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/di_trajectory_simple.h
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory_simple__functions.h
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory_simple__struct.h
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory_simple__type_support.h
 CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/eware_mission_status.h
 CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/eware_mission_status__functions.h
 CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/eware_mission_status__struct.h
 CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/eware_mission_status__type_support.h
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/cand_to_sp.h
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/cand_to_sp__functions.h
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/cand_to_sp__struct.h
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/cand_to_sp__type_support.h
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/sp_to_cand.h
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/sp_to_cand__functions.h
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/sp_to_cand__struct.h
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/sp_to_cand__type_support.h
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/mesch_mission_status.h
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__functions.h
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__struct.h
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__type_support.h
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/di_state__functions.c
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/di_acc__functions.c
 CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory__functions.c
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory_simple__functions.c
 CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/eware_mission_status__functions.c
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/cand_to_sp__functions.c
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/sp_to_cand__functions.c
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__functions.c
 	cd /root/colcon_ws/build/dasc_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/colcon_ws/src/dasc_ros_common/dasc_msgs /root/colcon_ws/src/dasc_ros_common/dasc_msgs /root/colcon_ws/build/dasc_msgs /root/colcon_ws/build/dasc_msgs /root/colcon_ws/build/dasc_msgs/CMakeFiles/dasc_msgs__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend
 
