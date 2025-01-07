@@ -7,3 +7,6 @@
 [submodule "colcon_ws/src/dasc_robot_gui"]
 	path = colcon_ws/src/dasc_robot_gui
 	url = git@github.com:kalebbennaveed/dasc_robot_gui.git
+[submodule "colcon_ws/src/meSch_base"]
+	path = colcon_ws/src/meSch_base
+	url = git@github.com:kalebbennaveed/meSch_base.git
