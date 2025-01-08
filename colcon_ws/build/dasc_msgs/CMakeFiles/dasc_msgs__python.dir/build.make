@@ -161,6 +161,32 @@ CMakeFiles/dasc_msgs__python.dir/rosidl_generator_py/dasc_msgs/msg/_mesch_missio
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dasc_msgs__python.dir/rosidl_generator_py/dasc_msgs/msg/_mesch_mission_status_s.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/msg/_mesch_mission_status_s.c -o CMakeFiles/dasc_msgs__python.dir/rosidl_generator_py/dasc_msgs/msg/_mesch_mission_status_s.c.s
 
+CMakeFiles/dasc_msgs__python.dir/rosidl_generator_py/dasc_msgs/msg/_quad_to_base_mesch_s.c.o: CMakeFiles/dasc_msgs__python.dir/flags.make
+CMakeFiles/dasc_msgs__python.dir/rosidl_generator_py/dasc_msgs/msg/_quad_to_base_mesch_s.c.o: rosidl_generator_py/dasc_msgs/msg/_quad_to_base_mesch_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/dasc_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/dasc_msgs__python.dir/rosidl_generator_py/dasc_msgs/msg/_quad_to_base_mesch_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dasc_msgs__python.dir/rosidl_generator_py/dasc_msgs/msg/_quad_to_base_mesch_s.c.o   -c /root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/msg/_quad_to_base_mesch_s.c
+
+CMakeFiles/dasc_msgs__python.dir/rosidl_generator_py/dasc_msgs/msg/_quad_to_base_mesch_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dasc_msgs__python.dir/rosidl_generator_py/dasc_msgs/msg/_quad_to_base_mesch_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/msg/_quad_to_base_mesch_s.c > CMakeFiles/dasc_msgs__python.dir/rosidl_generator_py/dasc_msgs/msg/_quad_to_base_mesch_s.c.i
+
+CMakeFiles/dasc_msgs__python.dir/rosidl_generator_py/dasc_msgs/msg/_quad_to_base_mesch_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dasc_msgs__python.dir/rosidl_generator_py/dasc_msgs/msg/_quad_to_base_mesch_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/msg/_quad_to_base_mesch_s.c -o CMakeFiles/dasc_msgs__python.dir/rosidl_generator_py/dasc_msgs/msg/_quad_to_base_mesch_s.c.s
+
+CMakeFiles/dasc_msgs__python.dir/rosidl_generator_py/dasc_msgs/msg/_base_to_quad_mesch_s.c.o: CMakeFiles/dasc_msgs__python.dir/flags.make
+CMakeFiles/dasc_msgs__python.dir/rosidl_generator_py/dasc_msgs/msg/_base_to_quad_mesch_s.c.o: rosidl_generator_py/dasc_msgs/msg/_base_to_quad_mesch_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/dasc_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/dasc_msgs__python.dir/rosidl_generator_py/dasc_msgs/msg/_base_to_quad_mesch_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dasc_msgs__python.dir/rosidl_generator_py/dasc_msgs/msg/_base_to_quad_mesch_s.c.o   -c /root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/msg/_base_to_quad_mesch_s.c
+
+CMakeFiles/dasc_msgs__python.dir/rosidl_generator_py/dasc_msgs/msg/_base_to_quad_mesch_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dasc_msgs__python.dir/rosidl_generator_py/dasc_msgs/msg/_base_to_quad_mesch_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/msg/_base_to_quad_mesch_s.c > CMakeFiles/dasc_msgs__python.dir/rosidl_generator_py/dasc_msgs/msg/_base_to_quad_mesch_s.c.i
+
+CMakeFiles/dasc_msgs__python.dir/rosidl_generator_py/dasc_msgs/msg/_base_to_quad_mesch_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dasc_msgs__python.dir/rosidl_generator_py/dasc_msgs/msg/_base_to_quad_mesch_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/msg/_base_to_quad_mesch_s.c -o CMakeFiles/dasc_msgs__python.dir/rosidl_generator_py/dasc_msgs/msg/_base_to_quad_mesch_s.c.s
+
 # Object files for target dasc_msgs__python
 dasc_msgs__python_OBJECTS = \
 "CMakeFiles/dasc_msgs__python.dir/rosidl_generator_py/dasc_msgs/msg/_di_state_s.c.o" \
@@ -170,7 +196,9 @@ dasc_msgs__python_OBJECTS = \
 "CMakeFiles/dasc_msgs__python.dir/rosidl_generator_py/dasc_msgs/msg/_eware_mission_status_s.c.o" \
 "CMakeFiles/dasc_msgs__python.dir/rosidl_generator_py/dasc_msgs/msg/_cand_to_sp_s.c.o" \
 "CMakeFiles/dasc_msgs__python.dir/rosidl_generator_py/dasc_msgs/msg/_sp_to_cand_s.c.o" \
-"CMakeFiles/dasc_msgs__python.dir/rosidl_generator_py/dasc_msgs/msg/_mesch_mission_status_s.c.o"
+"CMakeFiles/dasc_msgs__python.dir/rosidl_generator_py/dasc_msgs/msg/_mesch_mission_status_s.c.o" \
+"CMakeFiles/dasc_msgs__python.dir/rosidl_generator_py/dasc_msgs/msg/_quad_to_base_mesch_s.c.o" \
+"CMakeFiles/dasc_msgs__python.dir/rosidl_generator_py/dasc_msgs/msg/_base_to_quad_mesch_s.c.o"
 
 # External object files for target dasc_msgs__python
 dasc_msgs__python_EXTERNAL_OBJECTS =
@@ -183,6 +211,8 @@ rosidl_generator_py/dasc_msgs/libdasc_msgs__python.so: CMakeFiles/dasc_msgs__pyt
 rosidl_generator_py/dasc_msgs/libdasc_msgs__python.so: CMakeFiles/dasc_msgs__python.dir/rosidl_generator_py/dasc_msgs/msg/_cand_to_sp_s.c.o
 rosidl_generator_py/dasc_msgs/libdasc_msgs__python.so: CMakeFiles/dasc_msgs__python.dir/rosidl_generator_py/dasc_msgs/msg/_sp_to_cand_s.c.o
 rosidl_generator_py/dasc_msgs/libdasc_msgs__python.so: CMakeFiles/dasc_msgs__python.dir/rosidl_generator_py/dasc_msgs/msg/_mesch_mission_status_s.c.o
+rosidl_generator_py/dasc_msgs/libdasc_msgs__python.so: CMakeFiles/dasc_msgs__python.dir/rosidl_generator_py/dasc_msgs/msg/_quad_to_base_mesch_s.c.o
+rosidl_generator_py/dasc_msgs/libdasc_msgs__python.so: CMakeFiles/dasc_msgs__python.dir/rosidl_generator_py/dasc_msgs/msg/_base_to_quad_mesch_s.c.o
 rosidl_generator_py/dasc_msgs/libdasc_msgs__python.so: CMakeFiles/dasc_msgs__python.dir/build.make
 rosidl_generator_py/dasc_msgs/libdasc_msgs__python.so: libdasc_msgs__rosidl_generator_c.so
 rosidl_generator_py/dasc_msgs/libdasc_msgs__python.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
@@ -213,7 +243,7 @@ rosidl_generator_py/dasc_msgs/libdasc_msgs__python.so: /opt/ros/galactic/lib/lib
 rosidl_generator_py/dasc_msgs/libdasc_msgs__python.so: /opt/ros/galactic/lib/librcpputils.so
 rosidl_generator_py/dasc_msgs/libdasc_msgs__python.so: /opt/ros/galactic/lib/librcutils.so
 rosidl_generator_py/dasc_msgs/libdasc_msgs__python.so: CMakeFiles/dasc_msgs__python.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/colcon_ws/build/dasc_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C shared library rosidl_generator_py/dasc_msgs/libdasc_msgs__python.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/colcon_ws/build/dasc_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C shared library rosidl_generator_py/dasc_msgs/libdasc_msgs__python.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dasc_msgs__python.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

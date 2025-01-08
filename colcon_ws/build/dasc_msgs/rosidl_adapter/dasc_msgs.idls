@@ -6,3 +6,5 @@
 /root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs:msg/CandToSp.idl
 /root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs:msg/SpToCand.idl
 /root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs:msg/MeschMissionStatus.idl
+/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs:msg/QuadToBaseMesch.idl
+/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs:msg/BaseToQuadMesch.idl

@@ -85,6 +85,14 @@ CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/mesch_mission_stat
 CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/mesch_mission_status__builder.hpp
 CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/mesch_mission_status__struct.hpp
 CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/mesch_mission_status__traits.hpp
+CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/quad_to_base_mesch.hpp
+CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/quad_to_base_mesch__builder.hpp
+CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/quad_to_base_mesch__struct.hpp
+CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/quad_to_base_mesch__traits.hpp
+CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/base_to_quad_mesch.hpp
+CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/base_to_quad_mesch__builder.hpp
+CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/base_to_quad_mesch__struct.hpp
+CMakeFiles/dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/base_to_quad_mesch__traits.hpp
 
 
 rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -110,6 +118,8 @@ rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: rosidl_adapter/dasc_msgs/msg/Ew
 rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: rosidl_adapter/dasc_msgs/msg/CandToSp.idl
 rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: rosidl_adapter/dasc_msgs/msg/SpToCand.idl
 rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: rosidl_adapter/dasc_msgs/msg/MeschMissionStatus.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: rosidl_adapter/dasc_msgs/msg/QuadToBaseMesch.idl
+rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: rosidl_adapter/dasc_msgs/msg/BaseToQuadMesch.idl
 rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/geometry_msgs/msg/Accel.idl
 rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/geometry_msgs/msg/AccelStamped.idl
 rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp: /opt/ros/galactic/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -267,6 +277,30 @@ rosidl_generator_cpp/dasc_msgs/msg/detail/mesch_mission_status__struct.hpp: rosi
 rosidl_generator_cpp/dasc_msgs/msg/detail/mesch_mission_status__traits.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dasc_msgs/msg/detail/mesch_mission_status__traits.hpp
 
+rosidl_generator_cpp/dasc_msgs/msg/quad_to_base_mesch.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dasc_msgs/msg/quad_to_base_mesch.hpp
+
+rosidl_generator_cpp/dasc_msgs/msg/detail/quad_to_base_mesch__builder.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dasc_msgs/msg/detail/quad_to_base_mesch__builder.hpp
+
+rosidl_generator_cpp/dasc_msgs/msg/detail/quad_to_base_mesch__struct.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dasc_msgs/msg/detail/quad_to_base_mesch__struct.hpp
+
+rosidl_generator_cpp/dasc_msgs/msg/detail/quad_to_base_mesch__traits.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dasc_msgs/msg/detail/quad_to_base_mesch__traits.hpp
+
+rosidl_generator_cpp/dasc_msgs/msg/base_to_quad_mesch.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dasc_msgs/msg/base_to_quad_mesch.hpp
+
+rosidl_generator_cpp/dasc_msgs/msg/detail/base_to_quad_mesch__builder.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dasc_msgs/msg/detail/base_to_quad_mesch__builder.hpp
+
+rosidl_generator_cpp/dasc_msgs/msg/detail/base_to_quad_mesch__struct.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dasc_msgs/msg/detail/base_to_quad_mesch__struct.hpp
+
+rosidl_generator_cpp/dasc_msgs/msg/detail/base_to_quad_mesch__traits.hpp: rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dasc_msgs/msg/detail/base_to_quad_mesch__traits.hpp
+
 dasc_msgs__cpp: CMakeFiles/dasc_msgs__cpp
 dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/di_state.hpp
 dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/di_state__builder.hpp
@@ -300,6 +334,14 @@ dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/mesch_mission_status.hpp
 dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/mesch_mission_status__builder.hpp
 dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/mesch_mission_status__struct.hpp
 dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/mesch_mission_status__traits.hpp
+dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/quad_to_base_mesch.hpp
+dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/quad_to_base_mesch__builder.hpp
+dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/quad_to_base_mesch__struct.hpp
+dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/quad_to_base_mesch__traits.hpp
+dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/base_to_quad_mesch.hpp
+dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/base_to_quad_mesch__builder.hpp
+dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/base_to_quad_mesch__struct.hpp
+dasc_msgs__cpp: rosidl_generator_cpp/dasc_msgs/msg/detail/base_to_quad_mesch__traits.hpp
 dasc_msgs__cpp: CMakeFiles/dasc_msgs__cpp.dir/build.make
 
 .PHONY : dasc_msgs__cpp

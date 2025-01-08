@@ -64,6 +64,8 @@ dasc_msgs__py/CMakeFiles/dasc_msgs__py: rosidl_generator_py/dasc_msgs/msg/_eware
 dasc_msgs__py/CMakeFiles/dasc_msgs__py: rosidl_generator_py/dasc_msgs/msg/_cand_to_sp.py
 dasc_msgs__py/CMakeFiles/dasc_msgs__py: rosidl_generator_py/dasc_msgs/msg/_sp_to_cand.py
 dasc_msgs__py/CMakeFiles/dasc_msgs__py: rosidl_generator_py/dasc_msgs/msg/_mesch_mission_status.py
+dasc_msgs__py/CMakeFiles/dasc_msgs__py: rosidl_generator_py/dasc_msgs/msg/_quad_to_base_mesch.py
+dasc_msgs__py/CMakeFiles/dasc_msgs__py: rosidl_generator_py/dasc_msgs/msg/_base_to_quad_mesch.py
 dasc_msgs__py/CMakeFiles/dasc_msgs__py: rosidl_generator_py/dasc_msgs/msg/__init__.py
 dasc_msgs__py/CMakeFiles/dasc_msgs__py: rosidl_generator_py/dasc_msgs/msg/_di_state_s.c
 dasc_msgs__py/CMakeFiles/dasc_msgs__py: rosidl_generator_py/dasc_msgs/msg/_di_acc_s.c
@@ -73,6 +75,8 @@ dasc_msgs__py/CMakeFiles/dasc_msgs__py: rosidl_generator_py/dasc_msgs/msg/_eware
 dasc_msgs__py/CMakeFiles/dasc_msgs__py: rosidl_generator_py/dasc_msgs/msg/_cand_to_sp_s.c
 dasc_msgs__py/CMakeFiles/dasc_msgs__py: rosidl_generator_py/dasc_msgs/msg/_sp_to_cand_s.c
 dasc_msgs__py/CMakeFiles/dasc_msgs__py: rosidl_generator_py/dasc_msgs/msg/_mesch_mission_status_s.c
+dasc_msgs__py/CMakeFiles/dasc_msgs__py: rosidl_generator_py/dasc_msgs/msg/_quad_to_base_mesch_s.c
+dasc_msgs__py/CMakeFiles/dasc_msgs__py: rosidl_generator_py/dasc_msgs/msg/_base_to_quad_mesch_s.c
 
 
 rosidl_generator_py/dasc_msgs/_dasc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/galactic/lib/rosidl_generator_py/rosidl_generator_py
@@ -96,6 +100,8 @@ rosidl_generator_py/dasc_msgs/_dasc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: r
 rosidl_generator_py/dasc_msgs/_dasc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/dasc_msgs/msg/CandToSp.idl
 rosidl_generator_py/dasc_msgs/_dasc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/dasc_msgs/msg/SpToCand.idl
 rosidl_generator_py/dasc_msgs/_dasc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/dasc_msgs/msg/MeschMissionStatus.idl
+rosidl_generator_py/dasc_msgs/_dasc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/dasc_msgs/msg/QuadToBaseMesch.idl
+rosidl_generator_py/dasc_msgs/_dasc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/dasc_msgs/msg/BaseToQuadMesch.idl
 rosidl_generator_py/dasc_msgs/_dasc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/galactic/share/geometry_msgs/msg/Accel.idl
 rosidl_generator_py/dasc_msgs/_dasc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/galactic/share/geometry_msgs/msg/AccelStamped.idl
 rosidl_generator_py/dasc_msgs/_dasc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/galactic/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -190,6 +196,12 @@ rosidl_generator_py/dasc_msgs/msg/_sp_to_cand.py: rosidl_generator_py/dasc_msgs/
 rosidl_generator_py/dasc_msgs/msg/_mesch_mission_status.py: rosidl_generator_py/dasc_msgs/_dasc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/dasc_msgs/msg/_mesch_mission_status.py
 
+rosidl_generator_py/dasc_msgs/msg/_quad_to_base_mesch.py: rosidl_generator_py/dasc_msgs/_dasc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/dasc_msgs/msg/_quad_to_base_mesch.py
+
+rosidl_generator_py/dasc_msgs/msg/_base_to_quad_mesch.py: rosidl_generator_py/dasc_msgs/_dasc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/dasc_msgs/msg/_base_to_quad_mesch.py
+
 rosidl_generator_py/dasc_msgs/msg/__init__.py: rosidl_generator_py/dasc_msgs/_dasc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/dasc_msgs/msg/__init__.py
 
@@ -217,6 +229,12 @@ rosidl_generator_py/dasc_msgs/msg/_sp_to_cand_s.c: rosidl_generator_py/dasc_msgs
 rosidl_generator_py/dasc_msgs/msg/_mesch_mission_status_s.c: rosidl_generator_py/dasc_msgs/_dasc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/dasc_msgs/msg/_mesch_mission_status_s.c
 
+rosidl_generator_py/dasc_msgs/msg/_quad_to_base_mesch_s.c: rosidl_generator_py/dasc_msgs/_dasc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/dasc_msgs/msg/_quad_to_base_mesch_s.c
+
+rosidl_generator_py/dasc_msgs/msg/_base_to_quad_mesch_s.c: rosidl_generator_py/dasc_msgs/_dasc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/dasc_msgs/msg/_base_to_quad_mesch_s.c
+
 dasc_msgs__py: dasc_msgs__py/CMakeFiles/dasc_msgs__py
 dasc_msgs__py: rosidl_generator_py/dasc_msgs/_dasc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 dasc_msgs__py: rosidl_generator_py/dasc_msgs/_dasc_msgs_s.ep.rosidl_typesupport_introspection_c.c
@@ -229,6 +247,8 @@ dasc_msgs__py: rosidl_generator_py/dasc_msgs/msg/_eware_mission_status.py
 dasc_msgs__py: rosidl_generator_py/dasc_msgs/msg/_cand_to_sp.py
 dasc_msgs__py: rosidl_generator_py/dasc_msgs/msg/_sp_to_cand.py
 dasc_msgs__py: rosidl_generator_py/dasc_msgs/msg/_mesch_mission_status.py
+dasc_msgs__py: rosidl_generator_py/dasc_msgs/msg/_quad_to_base_mesch.py
+dasc_msgs__py: rosidl_generator_py/dasc_msgs/msg/_base_to_quad_mesch.py
 dasc_msgs__py: rosidl_generator_py/dasc_msgs/msg/__init__.py
 dasc_msgs__py: rosidl_generator_py/dasc_msgs/msg/_di_state_s.c
 dasc_msgs__py: rosidl_generator_py/dasc_msgs/msg/_di_acc_s.c
@@ -238,6 +258,8 @@ dasc_msgs__py: rosidl_generator_py/dasc_msgs/msg/_eware_mission_status_s.c
 dasc_msgs__py: rosidl_generator_py/dasc_msgs/msg/_cand_to_sp_s.c
 dasc_msgs__py: rosidl_generator_py/dasc_msgs/msg/_sp_to_cand_s.c
 dasc_msgs__py: rosidl_generator_py/dasc_msgs/msg/_mesch_mission_status_s.c
+dasc_msgs__py: rosidl_generator_py/dasc_msgs/msg/_quad_to_base_mesch_s.c
+dasc_msgs__py: rosidl_generator_py/dasc_msgs/msg/_base_to_quad_mesch_s.c
 dasc_msgs__py: dasc_msgs__py/CMakeFiles/dasc_msgs__py.dir/build.make
 
 .PHONY : dasc_msgs__py

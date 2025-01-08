@@ -302,6 +302,24 @@ std_msgs/msg/detail/header__type_support.h
 
 /opt/ros/galactic/include/std_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
 
+/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_introspection_c/dasc_msgs/msg/detail/base_to_quad_mesch__type_support.c
+stddef.h
+-
+dasc_msgs/msg/detail/base_to_quad_mesch__rosidl_typesupport_introspection_c.h
+/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_introspection_c/dasc_msgs/msg/detail/dasc_msgs/msg/detail/base_to_quad_mesch__rosidl_typesupport_introspection_c.h
+dasc_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_introspection_c/dasc_msgs/msg/detail/dasc_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+rosidl_typesupport_introspection_c/field_types.h
+/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_introspection_c/dasc_msgs/msg/detail/rosidl_typesupport_introspection_c/field_types.h
+rosidl_typesupport_introspection_c/identifier.h
+/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_introspection_c/dasc_msgs/msg/detail/rosidl_typesupport_introspection_c/identifier.h
+rosidl_typesupport_introspection_c/message_introspection.h
+/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_introspection_c/dasc_msgs/msg/detail/rosidl_typesupport_introspection_c/message_introspection.h
+dasc_msgs/msg/detail/base_to_quad_mesch__functions.h
+/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_introspection_c/dasc_msgs/msg/detail/dasc_msgs/msg/detail/base_to_quad_mesch__functions.h
+dasc_msgs/msg/detail/base_to_quad_mesch__struct.h
+/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_introspection_c/dasc_msgs/msg/detail/dasc_msgs/msg/detail/base_to_quad_mesch__struct.h
+
 /root/colcon_ws/build/dasc_msgs/rosidl_typesupport_introspection_c/dasc_msgs/msg/detail/cand_to_sp__type_support.c
 stddef.h
 -
@@ -460,6 +478,26 @@ dasc_msgs/msg/detail/mesch_mission_status__functions.h
 dasc_msgs/msg/detail/mesch_mission_status__struct.h
 /root/colcon_ws/build/dasc_msgs/rosidl_typesupport_introspection_c/dasc_msgs/msg/detail/dasc_msgs/msg/detail/mesch_mission_status__struct.h
 
+/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_introspection_c/dasc_msgs/msg/detail/quad_to_base_mesch__type_support.c
+stddef.h
+-
+dasc_msgs/msg/detail/quad_to_base_mesch__rosidl_typesupport_introspection_c.h
+/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_introspection_c/dasc_msgs/msg/detail/dasc_msgs/msg/detail/quad_to_base_mesch__rosidl_typesupport_introspection_c.h
+dasc_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_introspection_c/dasc_msgs/msg/detail/dasc_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+rosidl_typesupport_introspection_c/field_types.h
+/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_introspection_c/dasc_msgs/msg/detail/rosidl_typesupport_introspection_c/field_types.h
+rosidl_typesupport_introspection_c/identifier.h
+/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_introspection_c/dasc_msgs/msg/detail/rosidl_typesupport_introspection_c/identifier.h
+rosidl_typesupport_introspection_c/message_introspection.h
+/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_introspection_c/dasc_msgs/msg/detail/rosidl_typesupport_introspection_c/message_introspection.h
+dasc_msgs/msg/detail/quad_to_base_mesch__functions.h
+/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_introspection_c/dasc_msgs/msg/detail/dasc_msgs/msg/detail/quad_to_base_mesch__functions.h
+dasc_msgs/msg/detail/quad_to_base_mesch__struct.h
+/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_introspection_c/dasc_msgs/msg/detail/dasc_msgs/msg/detail/quad_to_base_mesch__struct.h
+rosidl_runtime_c/string_functions.h
+/root/colcon_ws/build/dasc_msgs/rosidl_typesupport_introspection_c/dasc_msgs/msg/detail/rosidl_runtime_c/string_functions.h
+
 /root/colcon_ws/build/dasc_msgs/rosidl_typesupport_introspection_c/dasc_msgs/msg/detail/sp_to_cand__type_support.c
 stddef.h
 -
@@ -479,6 +517,26 @@ dasc_msgs/msg/detail/sp_to_cand__struct.h
 /root/colcon_ws/build/dasc_msgs/rosidl_typesupport_introspection_c/dasc_msgs/msg/detail/dasc_msgs/msg/detail/sp_to_cand__struct.h
 rosidl_runtime_c/string_functions.h
 /root/colcon_ws/build/dasc_msgs/rosidl_typesupport_introspection_c/dasc_msgs/msg/detail/rosidl_runtime_c/string_functions.h
+
+rosidl_generator_c/dasc_msgs/msg/detail/base_to_quad_mesch__functions.h
+stdbool.h
+-
+stdlib.h
+-
+rosidl_runtime_c/visibility_control.h
+rosidl_generator_c/dasc_msgs/msg/detail/rosidl_runtime_c/visibility_control.h
+dasc_msgs/msg/rosidl_generator_c__visibility_control.h
+rosidl_generator_c/dasc_msgs/msg/detail/dasc_msgs/msg/rosidl_generator_c__visibility_control.h
+dasc_msgs/msg/detail/base_to_quad_mesch__struct.h
+rosidl_generator_c/dasc_msgs/msg/detail/dasc_msgs/msg/detail/base_to_quad_mesch__struct.h
+
+rosidl_generator_c/dasc_msgs/msg/detail/base_to_quad_mesch__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
 
 rosidl_generator_c/dasc_msgs/msg/detail/cand_to_sp__functions.h
 stdbool.h
@@ -654,6 +712,28 @@ stddef.h
 stdint.h
 -
 
+rosidl_generator_c/dasc_msgs/msg/detail/quad_to_base_mesch__functions.h
+stdbool.h
+-
+stdlib.h
+-
+rosidl_runtime_c/visibility_control.h
+rosidl_generator_c/dasc_msgs/msg/detail/rosidl_runtime_c/visibility_control.h
+dasc_msgs/msg/rosidl_generator_c__visibility_control.h
+rosidl_generator_c/dasc_msgs/msg/detail/dasc_msgs/msg/rosidl_generator_c__visibility_control.h
+dasc_msgs/msg/detail/quad_to_base_mesch__struct.h
+rosidl_generator_c/dasc_msgs/msg/detail/dasc_msgs/msg/detail/quad_to_base_mesch__struct.h
+
+rosidl_generator_c/dasc_msgs/msg/detail/quad_to_base_mesch__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+rosidl_runtime_c/string.h
+rosidl_generator_c/dasc_msgs/msg/detail/rosidl_runtime_c/string.h
+
 rosidl_generator_c/dasc_msgs/msg/detail/sp_to_cand__functions.h
 stdbool.h
 -
@@ -693,6 +773,14 @@ dasc_msgs/msg/detail/di_state__type_support.h
 rosidl_generator_c/dasc_msgs/msg/dasc_msgs/msg/detail/di_state__type_support.h
 
 rosidl_generator_c/dasc_msgs/msg/rosidl_generator_c__visibility_control.h
+
+rosidl_typesupport_introspection_c/dasc_msgs/msg/detail/base_to_quad_mesch__rosidl_typesupport_introspection_c.h
+rosidl_runtime_c/message_type_support_struct.h
+rosidl_typesupport_introspection_c/dasc_msgs/msg/detail/rosidl_runtime_c/message_type_support_struct.h
+rosidl_typesupport_interface/macros.h
+rosidl_typesupport_introspection_c/dasc_msgs/msg/detail/rosidl_typesupport_interface/macros.h
+dasc_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+rosidl_typesupport_introspection_c/dasc_msgs/msg/detail/dasc_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
 
 rosidl_typesupport_introspection_c/dasc_msgs/msg/detail/cand_to_sp__rosidl_typesupport_introspection_c.h
 rosidl_runtime_c/message_type_support_struct.h
@@ -743,6 +831,14 @@ dasc_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
 rosidl_typesupport_introspection_c/dasc_msgs/msg/detail/dasc_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
 
 rosidl_typesupport_introspection_c/dasc_msgs/msg/detail/mesch_mission_status__rosidl_typesupport_introspection_c.h
+rosidl_runtime_c/message_type_support_struct.h
+rosidl_typesupport_introspection_c/dasc_msgs/msg/detail/rosidl_runtime_c/message_type_support_struct.h
+rosidl_typesupport_interface/macros.h
+rosidl_typesupport_introspection_c/dasc_msgs/msg/detail/rosidl_typesupport_interface/macros.h
+dasc_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+rosidl_typesupport_introspection_c/dasc_msgs/msg/detail/dasc_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+
+rosidl_typesupport_introspection_c/dasc_msgs/msg/detail/quad_to_base_mesch__rosidl_typesupport_introspection_c.h
 rosidl_runtime_c/message_type_support_struct.h
 rosidl_typesupport_introspection_c/dasc_msgs/msg/detail/rosidl_runtime_c/message_type_support_struct.h
 rosidl_typesupport_interface/macros.h

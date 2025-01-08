@@ -105,6 +105,9 @@ CMakeFiles/dasc_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_gener
  /usr/include/python3.8/unicodeobject.h
  /usr/include/python3.8/warnings.h
  /usr/include/python3.8/weakrefobject.h
+ rosidl_generator_c/dasc_msgs/msg/detail/base_to_quad_mesch__functions.h
+ rosidl_generator_c/dasc_msgs/msg/detail/base_to_quad_mesch__struct.h
+ rosidl_generator_c/dasc_msgs/msg/detail/base_to_quad_mesch__type_support.h
  rosidl_generator_c/dasc_msgs/msg/detail/cand_to_sp__functions.h
  rosidl_generator_c/dasc_msgs/msg/detail/cand_to_sp__struct.h
  rosidl_generator_c/dasc_msgs/msg/detail/cand_to_sp__type_support.h
@@ -126,6 +129,9 @@ CMakeFiles/dasc_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_gener
  rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__functions.h
  rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__struct.h
  rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__type_support.h
+ rosidl_generator_c/dasc_msgs/msg/detail/quad_to_base_mesch__functions.h
+ rosidl_generator_c/dasc_msgs/msg/detail/quad_to_base_mesch__struct.h
+ rosidl_generator_c/dasc_msgs/msg/detail/quad_to_base_mesch__type_support.h
  rosidl_generator_c/dasc_msgs/msg/detail/sp_to_cand__functions.h
  rosidl_generator_c/dasc_msgs/msg/detail/sp_to_cand__struct.h
  rosidl_generator_c/dasc_msgs/msg/detail/sp_to_cand__type_support.h

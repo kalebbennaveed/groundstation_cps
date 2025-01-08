@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/dasc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dasc_msgs/msg/base_to_quad_mesch__type_support.cpp.o"
   "CMakeFiles/dasc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dasc_msgs/msg/cand_to_sp__type_support.cpp.o"
   "CMakeFiles/dasc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dasc_msgs/msg/di_acc__type_support.cpp.o"
   "CMakeFiles/dasc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dasc_msgs/msg/di_state__type_support.cpp.o"
@@ -6,9 +7,11 @@ file(REMOVE_RECURSE
   "CMakeFiles/dasc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dasc_msgs/msg/di_trajectory_simple__type_support.cpp.o"
   "CMakeFiles/dasc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dasc_msgs/msg/eware_mission_status__type_support.cpp.o"
   "CMakeFiles/dasc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dasc_msgs/msg/mesch_mission_status__type_support.cpp.o"
+  "CMakeFiles/dasc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dasc_msgs/msg/quad_to_base_mesch__type_support.cpp.o"
   "CMakeFiles/dasc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dasc_msgs/msg/sp_to_cand__type_support.cpp.o"
   "libdasc_msgs__rosidl_typesupport_c.pdb"
   "libdasc_msgs__rosidl_typesupport_c.so"
+  "rosidl_typesupport_c/dasc_msgs/msg/base_to_quad_mesch__type_support.cpp"
   "rosidl_typesupport_c/dasc_msgs/msg/cand_to_sp__type_support.cpp"
   "rosidl_typesupport_c/dasc_msgs/msg/di_acc__type_support.cpp"
   "rosidl_typesupport_c/dasc_msgs/msg/di_state__type_support.cpp"
@@ -16,6 +19,7 @@ file(REMOVE_RECURSE
   "rosidl_typesupport_c/dasc_msgs/msg/di_trajectory_simple__type_support.cpp"
   "rosidl_typesupport_c/dasc_msgs/msg/eware_mission_status__type_support.cpp"
   "rosidl_typesupport_c/dasc_msgs/msg/mesch_mission_status__type_support.cpp"
+  "rosidl_typesupport_c/dasc_msgs/msg/quad_to_base_mesch__type_support.cpp"
   "rosidl_typesupport_c/dasc_msgs/msg/sp_to_cand__type_support.cpp"
 )
 

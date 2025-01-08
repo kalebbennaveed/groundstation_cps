@@ -78,6 +78,8 @@ rosidl_generator_c/dasc_msgs/msg/di_state.h: rosidl_adapter/dasc_msgs/msg/EwareM
 rosidl_generator_c/dasc_msgs/msg/di_state.h: rosidl_adapter/dasc_msgs/msg/CandToSp.idl
 rosidl_generator_c/dasc_msgs/msg/di_state.h: rosidl_adapter/dasc_msgs/msg/SpToCand.idl
 rosidl_generator_c/dasc_msgs/msg/di_state.h: rosidl_adapter/dasc_msgs/msg/MeschMissionStatus.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: rosidl_adapter/dasc_msgs/msg/QuadToBaseMesch.idl
+rosidl_generator_c/dasc_msgs/msg/di_state.h: rosidl_adapter/dasc_msgs/msg/BaseToQuadMesch.idl
 rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/geometry_msgs/msg/Accel.idl
 rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/geometry_msgs/msg/AccelStamped.idl
 rosidl_generator_c/dasc_msgs/msg/di_state.h: /opt/ros/galactic/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -235,6 +237,30 @@ rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__struct.h: rosidl_g
 rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__type_support.h: rosidl_generator_c/dasc_msgs/msg/di_state.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__type_support.h
 
+rosidl_generator_c/dasc_msgs/msg/quad_to_base_mesch.h: rosidl_generator_c/dasc_msgs/msg/di_state.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/quad_to_base_mesch.h
+
+rosidl_generator_c/dasc_msgs/msg/detail/quad_to_base_mesch__functions.h: rosidl_generator_c/dasc_msgs/msg/di_state.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/detail/quad_to_base_mesch__functions.h
+
+rosidl_generator_c/dasc_msgs/msg/detail/quad_to_base_mesch__struct.h: rosidl_generator_c/dasc_msgs/msg/di_state.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/detail/quad_to_base_mesch__struct.h
+
+rosidl_generator_c/dasc_msgs/msg/detail/quad_to_base_mesch__type_support.h: rosidl_generator_c/dasc_msgs/msg/di_state.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/detail/quad_to_base_mesch__type_support.h
+
+rosidl_generator_c/dasc_msgs/msg/base_to_quad_mesch.h: rosidl_generator_c/dasc_msgs/msg/di_state.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/base_to_quad_mesch.h
+
+rosidl_generator_c/dasc_msgs/msg/detail/base_to_quad_mesch__functions.h: rosidl_generator_c/dasc_msgs/msg/di_state.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/detail/base_to_quad_mesch__functions.h
+
+rosidl_generator_c/dasc_msgs/msg/detail/base_to_quad_mesch__struct.h: rosidl_generator_c/dasc_msgs/msg/di_state.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/detail/base_to_quad_mesch__struct.h
+
+rosidl_generator_c/dasc_msgs/msg/detail/base_to_quad_mesch__type_support.h: rosidl_generator_c/dasc_msgs/msg/di_state.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/detail/base_to_quad_mesch__type_support.h
+
 rosidl_generator_c/dasc_msgs/msg/detail/di_state__functions.c: rosidl_generator_c/dasc_msgs/msg/di_state.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/detail/di_state__functions.c
 
@@ -258,6 +284,12 @@ rosidl_generator_c/dasc_msgs/msg/detail/sp_to_cand__functions.c: rosidl_generato
 
 rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__functions.c: rosidl_generator_c/dasc_msgs/msg/di_state.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__functions.c
+
+rosidl_generator_c/dasc_msgs/msg/detail/quad_to_base_mesch__functions.c: rosidl_generator_c/dasc_msgs/msg/di_state.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/detail/quad_to_base_mesch__functions.c
+
+rosidl_generator_c/dasc_msgs/msg/detail/base_to_quad_mesch__functions.c: rosidl_generator_c/dasc_msgs/msg/di_state.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dasc_msgs/msg/detail/base_to_quad_mesch__functions.c
 
 CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_state__functions.c.o: CMakeFiles/dasc_msgs__rosidl_generator_c.dir/flags.make
 CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_state__functions.c.o: rosidl_generator_c/dasc_msgs/msg/detail/di_state__functions.c
@@ -363,6 +395,32 @@ CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/de
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/colcon_ws/build/dasc_msgs/rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__functions.c -o CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__functions.c.s
 
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/quad_to_base_mesch__functions.c.o: CMakeFiles/dasc_msgs__rosidl_generator_c.dir/flags.make
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/quad_to_base_mesch__functions.c.o: rosidl_generator_c/dasc_msgs/msg/detail/quad_to_base_mesch__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/dasc_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/quad_to_base_mesch__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/quad_to_base_mesch__functions.c.o   -c /root/colcon_ws/build/dasc_msgs/rosidl_generator_c/dasc_msgs/msg/detail/quad_to_base_mesch__functions.c
+
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/quad_to_base_mesch__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/quad_to_base_mesch__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/colcon_ws/build/dasc_msgs/rosidl_generator_c/dasc_msgs/msg/detail/quad_to_base_mesch__functions.c > CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/quad_to_base_mesch__functions.c.i
+
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/quad_to_base_mesch__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/quad_to_base_mesch__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/colcon_ws/build/dasc_msgs/rosidl_generator_c/dasc_msgs/msg/detail/quad_to_base_mesch__functions.c -o CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/quad_to_base_mesch__functions.c.s
+
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/base_to_quad_mesch__functions.c.o: CMakeFiles/dasc_msgs__rosidl_generator_c.dir/flags.make
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/base_to_quad_mesch__functions.c.o: rosidl_generator_c/dasc_msgs/msg/detail/base_to_quad_mesch__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/dasc_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/base_to_quad_mesch__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/base_to_quad_mesch__functions.c.o   -c /root/colcon_ws/build/dasc_msgs/rosidl_generator_c/dasc_msgs/msg/detail/base_to_quad_mesch__functions.c
+
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/base_to_quad_mesch__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/base_to_quad_mesch__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/colcon_ws/build/dasc_msgs/rosidl_generator_c/dasc_msgs/msg/detail/base_to_quad_mesch__functions.c > CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/base_to_quad_mesch__functions.c.i
+
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/base_to_quad_mesch__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/base_to_quad_mesch__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/colcon_ws/build/dasc_msgs/rosidl_generator_c/dasc_msgs/msg/detail/base_to_quad_mesch__functions.c -o CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/base_to_quad_mesch__functions.c.s
+
 # Object files for target dasc_msgs__rosidl_generator_c
 dasc_msgs__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/di_state__functions.c.o" \
@@ -372,7 +430,9 @@ dasc_msgs__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/eware_mission_status__functions.c.o" \
 "CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/cand_to_sp__functions.c.o" \
 "CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/sp_to_cand__functions.c.o" \
-"CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__functions.c.o"
+"CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__functions.c.o" \
+"CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/quad_to_base_mesch__functions.c.o" \
+"CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/base_to_quad_mesch__functions.c.o"
 
 # External object files for target dasc_msgs__rosidl_generator_c
 dasc_msgs__rosidl_generator_c_EXTERNAL_OBJECTS =
@@ -385,6 +445,8 @@ libdasc_msgs__rosidl_generator_c.so: CMakeFiles/dasc_msgs__rosidl_generator_c.di
 libdasc_msgs__rosidl_generator_c.so: CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/cand_to_sp__functions.c.o
 libdasc_msgs__rosidl_generator_c.so: CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/sp_to_cand__functions.c.o
 libdasc_msgs__rosidl_generator_c.so: CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__functions.c.o
+libdasc_msgs__rosidl_generator_c.so: CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/quad_to_base_mesch__functions.c.o
+libdasc_msgs__rosidl_generator_c.so: CMakeFiles/dasc_msgs__rosidl_generator_c.dir/rosidl_generator_c/dasc_msgs/msg/detail/base_to_quad_mesch__functions.c.o
 libdasc_msgs__rosidl_generator_c.so: CMakeFiles/dasc_msgs__rosidl_generator_c.dir/build.make
 libdasc_msgs__rosidl_generator_c.so: /opt/ros/galactic/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
 libdasc_msgs__rosidl_generator_c.so: /opt/ros/galactic/lib/libgeometry_msgs__rosidl_typesupport_c.so
@@ -409,7 +471,7 @@ libdasc_msgs__rosidl_generator_c.so: /opt/ros/galactic/lib/librosidl_runtime_c.s
 libdasc_msgs__rosidl_generator_c.so: /opt/ros/galactic/lib/librcpputils.so
 libdasc_msgs__rosidl_generator_c.so: /opt/ros/galactic/lib/librcutils.so
 libdasc_msgs__rosidl_generator_c.so: CMakeFiles/dasc_msgs__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/colcon_ws/build/dasc_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C shared library libdasc_msgs__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/colcon_ws/build/dasc_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking C shared library libdasc_msgs__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dasc_msgs__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -453,6 +515,14 @@ CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msg
 CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__functions.h
 CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__struct.h
 CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__type_support.h
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/quad_to_base_mesch.h
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/quad_to_base_mesch__functions.h
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/quad_to_base_mesch__struct.h
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/quad_to_base_mesch__type_support.h
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/base_to_quad_mesch.h
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/base_to_quad_mesch__functions.h
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/base_to_quad_mesch__struct.h
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/base_to_quad_mesch__type_support.h
 CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/di_state__functions.c
 CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/di_acc__functions.c
 CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/di_trajectory__functions.c
@@ -461,6 +531,8 @@ CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msg
 CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/cand_to_sp__functions.c
 CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/sp_to_cand__functions.c
 CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/mesch_mission_status__functions.c
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/quad_to_base_mesch__functions.c
+CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/dasc_msgs/msg/detail/base_to_quad_mesch__functions.c
 	cd /root/colcon_ws/build/dasc_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/colcon_ws/src/dasc_ros_common/dasc_msgs /root/colcon_ws/src/dasc_ros_common/dasc_msgs /root/colcon_ws/build/dasc_msgs /root/colcon_ws/build/dasc_msgs /root/colcon_ws/build/dasc_msgs/CMakeFiles/dasc_msgs__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/dasc_msgs__rosidl_generator_c.dir/depend
 

@@ -61,6 +61,8 @@ CMakeFiles/dasc_msgs: /root/colcon_ws/src/dasc_ros_common/dasc_msgs/msg/EwareMis
 CMakeFiles/dasc_msgs: /root/colcon_ws/src/dasc_ros_common/dasc_msgs/msg/CandToSp.msg
 CMakeFiles/dasc_msgs: /root/colcon_ws/src/dasc_ros_common/dasc_msgs/msg/SpToCand.msg
 CMakeFiles/dasc_msgs: /root/colcon_ws/src/dasc_ros_common/dasc_msgs/msg/MeschMissionStatus.msg
+CMakeFiles/dasc_msgs: /root/colcon_ws/src/dasc_ros_common/dasc_msgs/msg/QuadToBaseMesch.msg
+CMakeFiles/dasc_msgs: /root/colcon_ws/src/dasc_ros_common/dasc_msgs/msg/BaseToQuadMesch.msg
 CMakeFiles/dasc_msgs: /opt/ros/galactic/share/geometry_msgs/msg/Accel.idl
 CMakeFiles/dasc_msgs: /opt/ros/galactic/share/geometry_msgs/msg/AccelStamped.idl
 CMakeFiles/dasc_msgs: /opt/ros/galactic/share/geometry_msgs/msg/AccelWithCovariance.idl

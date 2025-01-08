@@ -1,3 +1,5 @@
+msg/BaseToQuadMesch.idl
+msg/BaseToQuadMesch.msg
 msg/CandToSp.idl
 msg/CandToSp.msg
 msg/DIAcc.idl
@@ -12,5 +14,7 @@ msg/EwareMissionStatus.idl
 msg/EwareMissionStatus.msg
 msg/MeschMissionStatus.idl
 msg/MeschMissionStatus.msg
+msg/QuadToBaseMesch.idl
+msg/QuadToBaseMesch.msg
 msg/SpToCand.idl
 msg/SpToCand.msg

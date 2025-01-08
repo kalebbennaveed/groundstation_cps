@@ -391,6 +391,12 @@ ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs
 # install(FILES "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs/msg/MeschMissionStatus.idl" "DESTINATION" "share/dasc_msgs/msg")
 ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs/msg/MeschMissionStatus.idl" "DESTINATION" "share/dasc_msgs/msg")
 
+# install(FILES "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs/msg/QuadToBaseMesch.idl" "DESTINATION" "share/dasc_msgs/msg")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs/msg/QuadToBaseMesch.idl" "DESTINATION" "share/dasc_msgs/msg")
+
+# install(FILES "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs/msg/BaseToQuadMesch.idl" "DESTINATION" "share/dasc_msgs/msg")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs/msg/BaseToQuadMesch.idl" "DESTINATION" "share/dasc_msgs/msg")
+
 # install(FILES "/root/colcon_ws/src/dasc_ros_common/dasc_msgs/msg/DIState.msg" "DESTINATION" "share/dasc_msgs/msg")
 ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/src/dasc_ros_common/dasc_msgs/msg/DIState.msg" "DESTINATION" "share/dasc_msgs/msg")
 
@@ -414,6 +420,12 @@ ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs
 
 # install(FILES "/root/colcon_ws/src/dasc_ros_common/dasc_msgs/msg/MeschMissionStatus.msg" "DESTINATION" "share/dasc_msgs/msg")
 ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/src/dasc_ros_common/dasc_msgs/msg/MeschMissionStatus.msg" "DESTINATION" "share/dasc_msgs/msg")
+
+# install(FILES "/root/colcon_ws/src/dasc_ros_common/dasc_msgs/msg/QuadToBaseMesch.msg" "DESTINATION" "share/dasc_msgs/msg")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/src/dasc_ros_common/dasc_msgs/msg/QuadToBaseMesch.msg" "DESTINATION" "share/dasc_msgs/msg")
+
+# install(FILES "/root/colcon_ws/src/dasc_ros_common/dasc_msgs/msg/BaseToQuadMesch.msg" "DESTINATION" "share/dasc_msgs/msg")
+ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/src/dasc_ros_common/dasc_msgs/msg/BaseToQuadMesch.msg" "DESTINATION" "share/dasc_msgs/msg")
 
 # install(FILES "/root/colcon_ws/build/dasc_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/dasc_msgs" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/root/colcon_ws/src/dasc_ros_common/dasc_msgs" FILES "/root/colcon_ws/build/dasc_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/dasc_msgs" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

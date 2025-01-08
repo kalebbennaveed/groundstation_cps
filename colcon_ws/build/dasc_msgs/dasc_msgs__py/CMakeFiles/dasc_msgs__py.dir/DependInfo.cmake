@@ -8,6 +8,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/_dasc_msgs_s.ep.rosidl_typesupport_c.c" "/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/_dasc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/_dasc_msgs_s.ep.rosidl_typesupport_introspection_c.c" "/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/_dasc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/msg/__init__.py" "/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/_dasc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/msg/_base_to_quad_mesch.py" "/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/_dasc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/msg/_base_to_quad_mesch_s.c" "/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/_dasc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/msg/_cand_to_sp.py" "/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/_dasc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/msg/_cand_to_sp_s.c" "/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/_dasc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/msg/_di_acc.py" "/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/_dasc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
@@ -22,6 +24,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/msg/_eware_mission_status_s.c" "/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/_dasc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/msg/_mesch_mission_status.py" "/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/_dasc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/msg/_mesch_mission_status_s.c" "/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/_dasc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/msg/_quad_to_base_mesch.py" "/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/_dasc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/msg/_quad_to_base_mesch_s.c" "/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/_dasc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/msg/_sp_to_cand.py" "/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/_dasc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/msg/_sp_to_cand_s.c" "/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/_dasc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   )

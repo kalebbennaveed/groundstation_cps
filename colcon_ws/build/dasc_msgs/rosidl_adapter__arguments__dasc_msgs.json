@@ -8,6 +8,8 @@
     "/root/colcon_ws/src/dasc_ros_common/dasc_msgs:msg/EwareMissionStatus.msg",
     "/root/colcon_ws/src/dasc_ros_common/dasc_msgs:msg/CandToSp.msg",
     "/root/colcon_ws/src/dasc_ros_common/dasc_msgs:msg/SpToCand.msg",
-    "/root/colcon_ws/src/dasc_ros_common/dasc_msgs:msg/MeschMissionStatus.msg"
+    "/root/colcon_ws/src/dasc_ros_common/dasc_msgs:msg/MeschMissionStatus.msg",
+    "/root/colcon_ws/src/dasc_ros_common/dasc_msgs:msg/QuadToBaseMesch.msg",
+    "/root/colcon_ws/src/dasc_ros_common/dasc_msgs:msg/BaseToQuadMesch.msg"
   ]
 }
