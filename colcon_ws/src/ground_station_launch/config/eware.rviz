@@ -34,7 +34,7 @@ Panels:
     SyncSource: ""
   - Class: dasc_robot_gui/Eware
     Name: Eware
-    Topic: px4_100
+    Topic: px4_101
 Visualization Manager:
   Class: ""
   Displays:
