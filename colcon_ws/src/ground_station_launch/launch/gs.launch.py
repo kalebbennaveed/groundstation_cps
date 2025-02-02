@@ -25,7 +25,7 @@ def generate_launch_description():
     robot_03_name = "px4_102"
 
     # launch rviz with the teleop panel configuration
-    config0_name = "eware.rviz"
+    config0_name = "meSch.rviz"
     config0_path = "/root/colcon_ws/src/ground_station_launch/config/" + config0_name
 
 
