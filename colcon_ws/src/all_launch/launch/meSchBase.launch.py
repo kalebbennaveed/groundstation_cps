@@ -19,8 +19,16 @@ def generate_launch_description():
         package="meSch_base"
         )
 
+    # launch the setpoint publisher 
+    rover_pub_node = Node(
+        name="rover_setpoint_pub_node",
+        executable="meSch_roversp_node",
+        package="meSch_base"
+        )
+
     nodes = [
             meSch_base_node
+            # rover_pub_node
             ]
 
     return LaunchDescription(nodes)
